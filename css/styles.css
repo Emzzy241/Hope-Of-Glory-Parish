@@ -1,0 +1,152 @@
+
+/* Styling all colors I would be using in this website */
+
+:root {
+    --st-patricks-blue: hsl(235, 57%, 28%);
+    --amaranth-purple: hsl(335, 88%, 38%);
+    --royal-blue-dark: hsl(231, 68%, 21%);
+    --chrome-yellow: hsl(39, 100%, 52%);
+    --space-cadet-1: hsl(230, 41%, 25%);
+    --space-cadet-2: hsl(230, 59%, 16%);
+    --winter-sky_50: hsla(335, 87%, 53%, 0.5);
+    --purple-navy: hsl(236, 26%, 43%);
+    --ksu-purple: hsl(275, 54%, 33%);
+    --winter-sky: hsl(335, 87%, 53%);
+    --razzmattazz: hsl(335, 87%, 51%);
+    --platinum: hsl(0, 0%, 90%);
+    --black_70: hsla(0, 0%, 0%, 0.7);
+    --rajah: hsl(29, 99%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    --gradient-1: linear-gradient(90deg, var(--royal-blue-dark) 0, var(--ksu-purple) 51%, var(--royal-blue-dark));
+
+    --gradient-2: linear-gradient(90deg, var(--razzmattazz), var(--rajah));
+
+    /* the typography */
+
+    --ff-source-sans-pro: 'Source Sans Pro', sans-serif;
+    --ff-poppins: 'poppins', sans-serif --fs-1: 4.2rem;
+    --fs-2: 3.8rem;
+    --fs-3: 3.2rem;
+    --fs-4: 2.5rem;
+    --fs-5: 2.4rem;
+    --fs-6: 2rem;
+    --fs-7: 1.8rem;
+    --fs-8: 1.5rem;
+
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+     
+
+    /* Border Radius */
+
+    --radius-4: 4px;
+    --radius-12: 12px;
+
+    /* The spacing's for the Project */
+
+    --section-padding: 60px; 
+
+    /* Our prject's Transition */
+
+    --transition-1: 0.15s ease;
+    --transition-2: 0.35s ease;
+    --cubic-inn: cubic-bezier(0.51, 0.03, 0.64, 0.28);
+    --cubic-out: cubic-bezier(0.33, 0.85, 0.56, 1.02);
+
+    /* Our Project's shadow */
+
+    --shadow: 0 5px 20px 1px hsla(220, 63%, 33%, 0.1);
+}
+
+
+/* Styling the universal elements */
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a,
+img, 
+span,
+input,
+button,
+ion-icon{
+    display: block;
+}
+
+button,
+input{
+    background: none;
+    border: none;
+    font: inherit;
+}
+
+button{
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+}
+
+ion-icon{
+    pointer-events: none;
+}
+
+img{
+    height: auto;
+}
+
+address{
+    font-style: normal;
+}
+
+html{
+    font-family: var(--ff-poppins);
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--white);
+    color: var(--purple-navy);
+    font-size: 1.6rem;
+    height: 300vh;
+}
+
+/* 
+we want to edit scroll-bar now */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: hsl(0, 0%, 95%);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(0, 0%, 80%);
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: hsl(0, 0%, 70%);
+}
+
+/* Re used style */
