@@ -25,3 +25,15 @@ for( let i = 0; i < elementArray.length; i++){
 }
 
 // Code for toggling the navbar & overlay when we click on any navbar link
+
+const navbarLinks = document.querySelectorAll("[data-navbar-link]");
+
+for(let i = 0; i < navbarLinks.length; i++){
+    navbarLinks[i].addEventListener("click", function(){
+        navbar.classList.toggle("active");
+        overlay.classList.toggle("active");
+    });
+}
+
+// Wwhat we did here is that when we click on any link(be it the home, about, or contact link, our navigation should get closed)
+
