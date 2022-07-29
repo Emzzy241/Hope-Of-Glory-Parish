@@ -159,7 +159,6 @@ we want to edit scroll-bar now */
 
 /* Styling the header section */
 
-.overlay,
 .header .btn{
     display: none;
 }
@@ -175,7 +174,7 @@ we want to edit scroll-bar now */
     transition: var(--transition-1);
 }
 
-.header .active{ 
+.header.active{ 
        /* Note we created an instant variable --color here */
     --color: var(--st-patricks-blue);
     position: fixed;
@@ -231,7 +230,7 @@ we want to edit scroll-bar now */
 
 .navbar-top .logo{
     color: var(--st-patricks-blue);
-    font-size: 4.2rem;
+    font-size: 3.6rem;
     font-weight: var(--fw-700);
 }
 
@@ -244,6 +243,7 @@ we want to edit scroll-bar now */
 
 .navbar-item:not(:last-child){
     border-bottom: 1px solid var(--platinum);
+    width: 200px;
 }
 
 .navbar-link{
@@ -251,4 +251,19 @@ we want to edit scroll-bar now */
     font-size: var(--fs-8);
     font-weight: var(--fw-600);
     padding-block: 12px;
+}
+
+.overlay{
+    position: fixed;
+    inset: 0;
+    background-color: var(--black_70);
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: var(--transition-2);
+}
+
+.overlay.active{
+    opacity: 1;
+    pointer-events: all;
 }
