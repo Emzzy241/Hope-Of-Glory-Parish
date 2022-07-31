@@ -149,6 +149,11 @@ we want to edit scroll-bar now */
     background-color: hsl(0, 0%, 70%);
 }
 
+
+
+
+
+
 /* Re used style starts */
 .h2{
     font-family: var(--ff-source-sans-pro);
@@ -187,6 +192,7 @@ h2, h3{
     font-family: var(--ff-source-sans-pro);
 }
 
+
 .container{
     padding-inline: 15px;
 }
@@ -220,6 +226,15 @@ h2, h3{
 }
 
 
+.call-prayer-card .title{
+    color: var(--st-patricks-blue);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-700);
+}
+
+.call-prayer-card .text{
+    font-size: var(--fs-8);
+}
 
 
 
@@ -425,4 +440,78 @@ h2, h3{
 
 .stats-text{
     font-size: var(--fs-8);
+}
+
+
+/* Styling the call-prayer section starts */
+
+
+
+
+/* Styling the call-prayer section ends */
+
+.call-prayer-list{
+    display: grid;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.call-prayer-card{
+    padding: 30px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-12);
+}
+
+.call-prayer-card .call-prayer-card-icon{
+    background-image: url("../img/9swaggystyles.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsla(335, 87%, 53%, 0.12);
+    aspect-ratio: 1 / 1;
+    max-width: 165px;
+    display: grid;
+    place-content: center;
+    margin-inline: auto;
+    transition: var(--transition-1);
+}
+
+.call-prayer-card:hover .call-prayer-card-icon{
+    background: var(--winter-sky);
+   
+}
+
+.call-prayer-card .call-prayer-card-icon ion-icon{
+    font-size: 5rem;
+    color: var(--winter-sky);
+    --ionicon-stroke-width: 20px;
+    transition: var(--transition-1);
+}
+
+.call-prayer-card:hover .call-prayer-card-icon ion-icon{
+    color: var(--white);
+}
+
+.call-prayer-card .title{
+    text-align: center;
+    margin-block-end: 15px;
+}
+
+.call-prayer-card .text{
+    text-align: center;
+    margin-block-end: 20px;
+}
+
+.call-prayer-card .call-prayer-card-btn{
+    /* margin-inline: auto; change back when ion-icon works */
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--winter-sky);
+    border-radius: 50%;
+    color: var(--winter-sky);
+    transition: var(--transition-1);
+}
+
+.call-prayer-card .call-prayer-card-btn:is(:hover, :focus){
+    color: var(--white);
+    background-color: var(--winter-sky);
 }
