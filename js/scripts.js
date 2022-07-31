@@ -39,6 +39,14 @@ for(let i = 0; i < navbarLinks.length; i++){
 
 
 // Owl-Carousel for classes
+// with the code in owlCarousel we said our slider should scroll after every 3 seconds
 $(document).ready( function(){
-    $(".owl-carousel").owlCarousel();
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        dots: false,
+        nav: true,
+        navText: [$("owl-navigation.owl-nav-prev"),("owl-navigation.owl-nav-next")]
+    });
 });
