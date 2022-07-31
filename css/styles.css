@@ -562,9 +562,10 @@ h3 {
     display: block;
 }
 
-#class-start .container{
+/* What's making website unresponsive on Laptop and mobile */
+/* #class-start .container{
     margin: 0 50vw;
-}
+} */
 
 /* Styling the owl navigation */
 
@@ -594,3 +595,32 @@ h3 {
 
 
 /* Styling of the Classes Crousel ends */
+
+
+
+/* Styling of the goals section starts */
+
+.goals-list > li:first-child{
+    margin-block-end: 30px;
+}
+
+.goals-card{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.goals-card .icon{
+    background-image: var(--gradient-1);
+    background-size: 200%;
+    color: var(--white);
+    min-width: max-content;
+    max-width: max-content;
+    font-size: 36px;
+    padding: 22px;
+    border-radius: 50%;
+}
+
+
+
+/* Styling of the goals section ends */
