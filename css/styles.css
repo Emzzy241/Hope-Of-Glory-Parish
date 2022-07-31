@@ -149,12 +149,50 @@ we want to edit scroll-bar now */
     background-color: hsl(0, 0%, 70%);
 }
 
-/* Re used style */
+/* Re used style starts */
+
+h2, h3{
+    font-family: var(--ff-source-sans-pro);
+}
 
 .container{
     padding-inline: 15px;
 }
 
+.section{
+    padding-block: var(--section-padding);
+}
+
+.section-title{
+    color: var(--st-patricks-blue);
+    font-size: var(--fs-3);
+    margin-block-end: 60px;
+    max-width: max-content;
+    margin-inline: auto;
+}
+
+.underline{
+    position: relative;
+}
+
+.underline::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 6px;
+    background-image: var(--gradient-2);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* Re used style ends */
 
 
 /* Styling the header section */
@@ -266,4 +304,57 @@ we want to edit scroll-bar now */
 .overlay.active{
     opacity: 1;
     pointer-events: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* The call to Prayer's styling */
+
+.about-banner{
+    margin-block-end: 30px;
+}
+
+.about .section-title{
+    margin-inline: 0;
+}
+
+.about .underline::before{
+    left: 0;
+    transform: translateX(0);
+}
+
+.about-text{
+    font-size: var(--fs-8);
+    margin-block-end: 20px;
+    
+}
+
+.stats-list{
+    display: grid;
+    gap: 30px;
+}
+
+.starts-card{
+    text-align: center;
+    padding: 15px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-12);
+}
+
+.stats-title{
+    color: var(--st-patricks-blue);
+    font-size: var(--fs-2);
+    font-weight: var(--fw-700);
+}
+
+.stats-text{
+    font-size: var(--fs-8);
 }
