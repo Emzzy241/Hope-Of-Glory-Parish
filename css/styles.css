@@ -230,21 +230,19 @@ h3 {
     border-radius: 10px;
 }
 
-
-.call-prayer-card .title {
+/* giving both call-parayer-card and goals-card a styling */
+:is(.call-prayer-card, .goals-card) .title {
     color: var(--st-patricks-blue);
     font-size: var(--fs-4);
     font-weight: var(--fw-700);
 }
 
-.call-prayer-card .text {
+:is(.call-prayer-card, .goals-card) .text {
     font-size: var(--fs-8);
 }
 
 
 
-
-/* Re used style ends */
 
 
 /* Styling the header section */
@@ -358,6 +356,8 @@ h3 {
     pointer-events: all;
 }
 
+
+/* Re used style ends */
 
 
 /* Styling the hero section starts */
@@ -619,6 +619,23 @@ h3 {
     font-size: 36px;
     padding: 22px;
     border-radius: 50%;
+}
+
+.goals-card .icon ion-icon{
+    --ionicon-stroke-width: 20px;
+}
+
+.goals-card .title {
+    margin-block-end: 10px;
+}
+
+.goals-banner{
+    margin-block: 40px;
+}
+
+.goals-banner > img{
+    max-width: max-content;
+    margin-inline: auto;
 }
 
 
