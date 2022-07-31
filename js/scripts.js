@@ -35,5 +35,10 @@ for(let i = 0; i < navbarLinks.length; i++){
     });
 }
 
-// Wwhat we did here is that when we click on any link(be it the home, about, or contact link, our navigation should get closed)
+// What we did here is that when we click on any link(be it the home, about, or contact link, our navigation should get closed)
 
+
+// Owl-Carousel for classes
+$(document).ready( function(){
+    $(".owl-carousel").owlCarousel();
+});
