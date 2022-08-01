@@ -848,3 +848,30 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 
 /* Styling the footer section starts */
+
+
+
+
+/* styling the scroll top button */
+
+.scroll-top{
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    background-color: var(--winter-sky);
+    color: var(--white);
+    font-size: 20px;
+    padding: 14px;
+    border-radius: var(--radius-4);
+    box-shadow: -3px 3px 15px var(--winter-sky_50);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition-1); 
+}
+
+.scroll-top.active{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-15px);
+}

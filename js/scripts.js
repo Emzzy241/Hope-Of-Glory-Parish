@@ -50,3 +50,25 @@ $(document).ready( function(){
         navText: [$("owl-navigation.owl-nav-prev"),("owl-navigation.owl-nav-next")]
     });
 });
+
+
+
+// Javascript for the scroll-top button
+
+// header and scroll-top button active when 
+// when window scroll down to 400px
+
+const header = document.querySelector("[data-header]");
+
+const scrollTopBtn = document.querySelector("[data-scroll-top]");
+
+
+window.addEventListener("scroll", function(){
+    if(window.scrollY >= 500){
+        header.classList.add("active");
+        scrollTopBtn.classList.add("active");
+    }else{
+        header.classList.remove("active");
+        scrollTopBtn.classList.remove("active");
+    }
+});
