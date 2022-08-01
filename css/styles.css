@@ -739,3 +739,112 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 
 /* Styling the Christianity blog section ends */
+
+
+
+
+
+
+/* Styling the footer section starts */
+
+.footer{
+    font-size: var(--fs-8);
+}
+
+.footer a{
+    color: inherit;
+}
+
+.footer-top{
+    background-image: url("../img/3WhiteRockandRole.jpg"), var(--gradient-1);
+    background-repeat: no-repeat;
+    background-size: auto, 200%;
+    background-position: center, center;
+    color: var(--white);
+}
+
+.footer-brand{
+    margin-block-end: 30px;
+}
+
+.footer-brand .logo{
+    font-weight: var(--fw-700);
+    margin-block-end: 15px;
+}
+
+.footer-brand .text{
+    font-size: var(--fs-8);
+    margin-block-end: 20px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-top .social-link{
+    background-color: var(--white);
+    color: var(--white);
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.footer-top .social-link:is(:hover, :focus){
+    background-image: var(--gradient-2);
+    color: var(--white);
+}
+
+.footer-list:not(:last-child){
+    margin-block-end: 25px;
+}
+
+.footer-list-title{
+    font-family: var(--ff-source-sans-pro);
+    font-size: var(--fs-5);
+    font-weight: var(--fw-700);
+    margin-block-end: 15px;
+}
+
+.footer-link{
+    padding-block: 5px;
+}
+
+:is(.footer-link, .footer-item-link):not(address):is(:hover, :focus){
+    text-decoration: underline;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-block: 10px;
+}
+
+.footer-item-icon{
+    background-image: var(--gradient-2);
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.footer-bottom{
+    background-color: var(--space-cadet-2);
+    padding: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+.copyright-link{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.copyright-link:is(:hover, :focus){
+    text-decoration: none;
+}
+
+
+/* Styling the footer section starts */
