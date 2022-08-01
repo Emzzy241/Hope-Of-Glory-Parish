@@ -230,8 +230,8 @@ h3 {
     border-radius: 10px;
 }
 
-/* giving both call-parayer-card and goals-card a styling */
-:is(.call-prayer-card, .goals-card) .title {
+/* giving both call-parayer-card and goals-card, and blog-card a styling */
+:is(.call-prayer-card, .goals-card, .blog-card) .title {
     color: var(--st-patricks-blue);
     font-size: var(--fs-4);
     font-weight: var(--fw-700);
@@ -241,6 +241,17 @@ h3 {
     font-size: var(--fs-8);
 }
 
+/* If the font size for the blogs is too big, make your own 
+fontsize --fs-6 or any number and remove any card you changed it's font size in the 
+:is() 
+*/
+.img-cover{
+    /* Emmanuel when you find good images, give width and height
+    100% */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
@@ -355,6 +366,7 @@ h3 {
     opacity: 1;
     pointer-events: all;
 }
+
 
 
 /* Re used style ends */
@@ -639,5 +651,91 @@ h3 {
 }
 
 
-
 /* Styling of the goals section ends */
+
+
+
+/* Styling the Christianity blog section starts */
+
+.blog{
+    padding-block-end: 120px;
+}
+
+.blog-list{
+    display: grid;
+    gap: 30px;
+}
+
+.blog-card{
+    padding: 20px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius-12);
+}
+
+.blog-card .banner{
+    border-radius: var(--radius-12);
+    overflow: hidden;
+    margin-block-end: 15px;
+}
+
+.blog-card .banner img{
+    transition: var(--transition-2);
+}
+
+.blog-card .banner a:is(:hover, :focus) img{
+    transform: scale(1.1);
+}
+
+.blog-card .title{
+    color: var(--st-patricks-blue);
+    font-size: var(--fs-6);
+    line-height: 1.2;
+    margin-block-end: 15px;
+}
+
+.blog-card .title > a{
+    color: inherit;
+}
+
+.blog-card .title > a:is(:hover, :focus){
+    color: var(--razzmattazz);
+}
+
+.blog-card .text{
+    margin-block-end: 15px;
+}
+
+
+.blog-card .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-size: var(--fs-8);
+    color: var(--purple-navy);
+    font-weight: var(--fw-500);
+    padding-block-end: 10px;
+}
+
+.blog-card .meta ion-icon{
+    color: var(--winter-sky);
+    font-size: 22px;
+    --ionicon-stroke-width: 35px;
+}
+
+.publish-date,
+.comment{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.comment{
+    color: inherit;
+    margin-inline-start: auto;
+}
+
+
+
+
+/* Styling the Christianity blog section ends */
