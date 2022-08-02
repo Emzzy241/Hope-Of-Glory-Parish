@@ -245,7 +245,7 @@ h3 {
 fontsize --fs-6 or any number and remove any card you changed it's font size in the 
 :is() 
 */
-.img-cover{
+.img-cover {
     /* Emmanuel when you find good images, give width and height
     100% */
     width: 100%;
@@ -562,13 +562,13 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     padding: 2rem 0;
 }
 
-#class-start img{
+#class-start img {
     height: 200px;
     width: 275px;
-    
+
 }
 
-#class-start span{
+#class-start span {
     color: var(--black_70);
     font-family: var(--ff-poppins);
     display: block;
@@ -581,7 +581,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling the owl navigation */
 
-#class-start section .container .owl-nav{
+#class-start section .container .owl-nav {
     position: absolute;
     top: 0%;
     margin: 0 auto;
@@ -589,19 +589,20 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 .owl-nav .owl-prev .owl-nav-prev,
-.owl-nav .owl-next .owl-nav-next{
+.owl-nav .owl-next .owl-nav-next {
     color: var(--royal-blue-dark);
     background: transparent;
     font-size: 2rem;
 }
+
 /* Removing the hover effect from owl-nav */
 
-.owl-theme .owl-nav[class="owl-"]:hover{
+.owl-theme .owl-nav[class="owl-"]:hover {
     background: transparent;
     color: var(--black_70);
 }
 
-.owl-theme .owl-nav[class="owl-"]{
+.owl-theme .owl-nav[class="owl-"] {
     outline: none;
 }
 
@@ -612,17 +613,17 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling of the goals section starts */
 
-.goals-list > li:first-child{
+.goals-list>li:first-child {
     margin-block-end: 30px;
 }
 
-.goals-card{
+.goals-card {
     display: flex;
     align-items: flex-start;
     gap: 20px;
 }
 
-.goals-card .icon{
+.goals-card .icon {
     background-image: var(--gradient-1);
     background-size: 200%;
     color: var(--white);
@@ -633,7 +634,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     border-radius: 50%;
 }
 
-.goals-card .icon ion-icon{
+.goals-card .icon ion-icon {
     --ionicon-stroke-width: 20px;
 }
 
@@ -641,11 +642,11 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     margin-block-end: 10px;
 }
 
-.goals-banner{
+.goals-banner {
     margin-block: 40px;
 }
 
-.goals-banner > img{
+.goals-banner>img {
     max-width: max-content;
     margin-inline: auto;
 }
@@ -657,56 +658,56 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling the Christianity blog section starts */
 
-.blog{
+.blog {
     padding-block-end: 120px;
 }
 
-.blog-list{
+.blog-list {
     display: grid;
     gap: 30px;
 }
 
-.blog-card{
+.blog-card {
     padding: 20px;
     box-shadow: var(--shadow);
     border-radius: var(--radius-12);
 }
 
-.blog-card .banner{
+.blog-card .banner {
     border-radius: var(--radius-12);
     overflow: hidden;
     margin-block-end: 15px;
 }
 
-.blog-card .banner img{
+.blog-card .banner img {
     transition: var(--transition-2);
 }
 
-.blog-card .banner a:is(:hover, :focus) img{
+.blog-card .banner a:is(:hover, :focus) img {
     transform: scale(1.1);
 }
 
-.blog-card .title{
+.blog-card .title {
     color: var(--st-patricks-blue);
     font-size: var(--fs-6);
     line-height: 1.2;
     margin-block-end: 15px;
 }
 
-.blog-card .title > a{
+.blog-card .title>a {
     color: inherit;
 }
 
-.blog-card .title > a:is(:hover, :focus){
+.blog-card .title>a:is(:hover, :focus) {
     color: var(--razzmattazz);
 }
 
-.blog-card .text{
+.blog-card .text {
     margin-block-end: 15px;
 }
 
 
-.blog-card .meta{
+.blog-card .meta {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -717,20 +718,20 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     padding-block-end: 10px;
 }
 
-.blog-card .meta ion-icon{
+.blog-card .meta ion-icon {
     color: var(--winter-sky);
     font-size: 22px;
     --ionicon-stroke-width: 35px;
 }
 
 .publish-date,
-.comment{
+.comment {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.comment{
+.comment {
     color: inherit;
     margin-inline-start: auto;
 }
@@ -747,15 +748,15 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling the footer section starts */
 
-.footer{
+.footer {
     font-size: var(--fs-8);
 }
 
-.footer a{
+.footer a {
     color: inherit;
 }
 
-.footer-top{
+.footer-top {
     background-image: url("../img/3WhiteRockandRole.jpg"), var(--gradient-1);
     background-repeat: no-repeat;
     background-size: auto, 200%;
@@ -763,28 +764,28 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     color: var(--white);
 }
 
-.footer-brand{
+.footer-brand {
     margin-block-end: 30px;
 }
 
-.footer-brand .logo{
+.footer-brand .logo {
     font-weight: var(--fw-700);
     margin-block-end: 15px;
 }
 
-.footer-brand .text{
+.footer-brand .text {
     font-size: var(--fs-8);
     margin-block-end: 20px;
 }
 
-.social-list{
+.social-list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
 }
 
-.footer-top .social-link{
+.footer-top .social-link {
     background-color: var(--white);
     color: var(--white);
     font-size: 18px;
@@ -792,31 +793,31 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     border-radius: 50%;
 }
 
-.footer-top .social-link:is(:hover, :focus){
+.footer-top .social-link:is(:hover, :focus) {
     background-image: var(--gradient-2);
     color: var(--white);
 }
 
-.footer-list:not(:last-child){
+.footer-list:not(:last-child) {
     margin-block-end: 25px;
 }
 
-.footer-list-title{
+.footer-list-title {
     font-family: var(--ff-source-sans-pro);
     font-size: var(--fs-5);
     font-weight: var(--fw-700);
     margin-block-end: 15px;
 }
 
-.footer-link{
+.footer-link {
     padding-block: 5px;
 }
 
-:is(.footer-link, .footer-item-link):not(address):is(:hover, :focus){
+:is(.footer-link, .footer-item-link):not(address):is(:hover, :focus) {
     text-decoration: underline;
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -824,25 +825,25 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     padding-block: 10px;
 }
 
-.footer-item-icon{
+.footer-item-icon {
     background-image: var(--gradient-2);
     padding: 13px;
     border-radius: 50%;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: var(--space-cadet-2);
     padding: 20px;
     text-align: center;
     color: var(--white);
 }
 
-.copyright-link{
+.copyright-link {
     display: inline-block;
     text-decoration: underline;
 }
 
-.copyright-link:is(:hover, :focus){
+.copyright-link:is(:hover, :focus) {
     text-decoration: none;
 }
 
@@ -854,7 +855,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* styling the scroll top button */
 
-.scroll-top{
+.scroll-top {
     position: fixed;
     bottom: 0;
     right: 15px;
@@ -867,11 +868,187 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     z-index: 2;
     visibility: hidden;
     opacity: 0;
-    transition: var(--transition-1); 
+    transition: var(--transition-1);
 }
 
-.scroll-top.active{
+.scroll-top.active {
     visibility: visible;
     opacity: 1;
     transform: translateY(-15px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media querrries for index.html */
+
+/* responsiveness for larger than 550px screen */
+
+
+@media (min-width: 550px) {
+
+    /* Reused style */
+
+    .container {
+        max-width: 550px;
+        margin-inline: auto;
+    }
+
+    .section-title {
+        --fs-3: 3.6rem;
+    }
+
+    /* The header section styling */
+
+    .header .btn {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-inline-start: auto;
+    }
+
+
+    /* The  about section styling */
+    .stats-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* blog card section styling */
+    .blog-card {
+        display: grid;
+        grid-template-columns: 0.75fr 1fr;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .blog-card .banner {
+        margin-block-end: 0;
+    }
+
+    .blog-card .banner a {
+        height: 100%;
+    }
+
+    /* Footer section styling */
+
+    .footer-brand,
+    .footer-list:not(:last-child){
+        margin-block-end: 0;
+    }
+
+    .footer-top .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 50px;
+    }
+
+}
+
+
+/* responsiveness for larger than 768px screen */
+
+
+@media (min-width: 768px){
+    /* Re Used style for this screen */
+
+    .container{
+        max-width: 720px;
+
+    }
+
+    /* Hero section */
+
+    .hero{
+        min-height: 600px;
+        display: grid;
+        place-items: center;
+    }
 }
