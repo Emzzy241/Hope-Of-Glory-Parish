@@ -375,8 +375,8 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 /* Styling the hero section starts */
 
 .hero {
-    background-image: url("../img/10.jpeg"),
-        url("../img/10sneakersFoot.jpg"),
+    background-image: url("../img/hero-bg-bottom.png"),
+        url("../img/hero-bg.png"),
         var(--gradient-1);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: -280px bottom, center, center;
@@ -1020,11 +1020,11 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     /* Footer section styling */
 
     .footer-brand,
-    .footer-list:not(:last-child){
+    .footer-list:not(:last-child) {
         margin-block-end: 0;
     }
 
-    .footer-top .container{
+    .footer-top .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px 50px;
@@ -1036,19 +1036,152 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 /* responsiveness for larger than 768px screen */
 
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     /* Re Used style for this screen */
 
-    .container{
+    .container {
         max-width: 720px;
 
     }
 
     /* Hero section */
 
-    .hero{
+    .hero {
         min-height: 600px;
         display: grid;
         place-items: center;
     }
+
+    .hero .content {
+        margin-block-end: 0;
+    }
+
+    .hero .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* Life's we've touched section */
+    .call-prayer-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* The goals section styling */
+    .goals-list>li:first-child {
+        margin-block-end: 0;
+    }
+
+    .goals-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    /* The footer section */
+
+    .footer-top .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+
+/* responsiveness for larger than 992px screen */
+
+@media (min-width: 992px) {
+
+    /* CUSTOM PROPERTY */
+    :root {
+
+        /* typography */
+
+        --fs-1: 5.4rem;
+    }
+
+    /* Re used style */
+
+    .container {
+        max-width: 950px;
+    }
+
+    .header{
+        padding-block: 20px;
+    }
+
+    .overlay,
+     .nav-open-btn,
+     .navbar-top{
+        display: none;
+     }
+
+     .navbar{
+        all: unset;
+        margin-inline-start: auto;
+     }
+
+     .header .btn{
+        margin-inline-start: 0;
+     }
+
+     .navbar-list{
+        display: flex;
+        gap: 20px;
+     }
+
+     .navbar-item:not(:last-child){
+        border-bottom: none;
+     }
+
+     .navbar-link{
+        color: var(--color);
+     }
+
+     /* HERO */
+     .hero{
+        min-height: 700px;
+     }
+
+
+     /* about section */
+
+     .about .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+     }
+
+     .call-prayer-list{
+        grid-template-columns: repeat(3, 1fr);
+     }
+
+     .goals-list{
+        grid-template-columns: 1fr;
+     }
+
+     .goals .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+     }
+
+     .goals .section-title{
+        grid-column: 1 / 4;
+     }
+
+     .goals-banner{
+        margin-block: 0;
+        display: grid;
+        place-items: center;
+     }
+
+
+     /* footer */
+
+     .footer-top .container{
+        grid-template-columns: repeat(4, 1fr);
+     }
+     
 }
