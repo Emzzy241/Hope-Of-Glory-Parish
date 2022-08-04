@@ -304,9 +304,9 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     background-color: var(--white);
     position: fixed;
     top: 0;
-    left: -280px;
+    left: -250px;
     width: 100%;
-    max-width: 280px;
+    max-width: 250px;
     min-height: 100vh;
     padding: 20px;
     visibility: hidden;
@@ -314,14 +314,10 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     transition: 0.25s var(--cubic-inn);
 }
 
-/* 
-.navbar .navbar-list{
-    margin-top: -410px;
-    margin-bottom: 20px;
-} */
+
 
 .navbar.active {
-    transform: translateX(280px);
+    transform: translateX(250px);
     visibility: visible;
     transition: 0.5s var(--cubic-out);
 }
@@ -665,6 +661,52 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling of the goals section ends */
 
+.donation-bar,
+.donation-percentage {
+    height: 5px;
+    border-radius: 0.25rem;
+    background-color: var(--platinum);
+    margin-bottom: 20px;
+}
+
+.donation-percentage {
+    display: block;
+    background: var(--gradient-2);
+}
+
+.call-prayer-card .btn {
+    margin-top: 20px;
+}
+
+.percent {
+    margin-left: 130px;
+    margin-top: -15px;
+}
+
+.donate-poor {
+    width: 70%;
+}
+
+.donate-children {
+    width: 40%;
+}
+
+.donate-girl {
+    width: 84%;
+}
+
+
+/* Styling the donation bar starts */
+
+
+
+
+
+
+
+/* Styling the donation bar starts */
+
+
 
 
 /* Styling the Christianity blog section starts */
@@ -987,8 +1029,37 @@ come up and not stay down as it was before */
 @media (max-width: 550px) {
 
     .navbar .navbar-list {
-        margin-top: -410px;
+        margin-top: -450px;
         margin-bottom: 20px;
+    }
+
+
+    .percent {
+        margin-left: 150px;
+        margin-top: -15px;
+    }
+}
+
+
+
+@media (max-width: 300px) {
+
+    .percent {
+        margin-left: 70px;
+        margin-top: -15px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .navbar .navbar-list {
+        margin-top: -340px;
+        margin-bottom: 20px;
+    }
+    .percent {
+        margin-left: 120px;
+        margin-top: -15px;
     }
 }
 
@@ -1015,6 +1086,11 @@ come up and not stay down as it was before */
         align-items: center;
         gap: 5px;
         margin-inline-start: auto;
+    }
+
+    .percent {
+        margin-left: 120px;
+        margin-top: -15px;
     }
 
 
@@ -1247,13 +1323,14 @@ come up and not stay down as it was before */
     .section-title {
         --fs-3: 4.6rem;
     }
-    .navbar-list li{
+
+    .navbar-list li {
         display: inline-flex;
         margin-right: -60px;
         margin-left: 10px;
     }
-    
-    .header .btn{
+
+    .header .btn {
         margin-left: 50px;
     }
 
