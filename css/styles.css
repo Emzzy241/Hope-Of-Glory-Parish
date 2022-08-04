@@ -519,10 +519,11 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 .call-prayer-card .call-prayer-card-btn {
-    /* margin-inline: auto; change back when ion-icon works */
-    text-align: center;
-    padding: 15px;
+    margin-inline: auto;
+    padding: 14px;
     border: 1px solid var(--winter-sky);
+    height: 4.5rem;
+    width: 4.5rem;
     border-radius: 50%;
     color: var(--winter-sky);
     transition: var(--transition-1);
@@ -1194,11 +1195,11 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .footer-brand{
+    .footer-brand {
         grid-column: 1 / 5;
     }
 
-    .footer-brand .text{
+    .footer-brand .text {
         max-width: 45ch;
     }
 
@@ -1214,33 +1215,33 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
     /* RE USED STYLES  */
 
-    .container{
+    .container {
         max-width: 1200px;
     }
 
-    .section-title{
+    .section-title {
         --fs-3: 4.6rem;
     }
 
 
     /* HERO section */
 
-    .hero{
+    .hero {
         min-height: 800px;
     }
 
 
     /* THE BLOG SECTION */
 
-    .blog-list{
+    .blog-list {
         grid-template-columns: 1fr 1fr;
     }
 
-    .blog-card{
+    .blog-card {
         height: 100%;
     }
 
-    .blog-card .content{
+    .blog-card .content {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1250,11 +1251,11 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     /* THE FOOTER SECTION */
 
 
-    .footer-top .container{
+    .footer-top .container {
         grid-template-columns: 1fr 0.5fr 0.7fr 0.5fr 1fr;
     }
 
-    .footer-brand{
+    .footer-brand {
         grid-column: auto;
     }
 
