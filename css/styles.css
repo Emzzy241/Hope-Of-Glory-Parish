@@ -307,12 +307,18 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     left: -280px;
     width: 100%;
     max-width: 280px;
-    min-height: 100%;
+    min-height: 100vh;
     padding: 20px;
     visibility: hidden;
     z-index: 2;
     transition: 0.25s var(--cubic-inn);
 }
+
+/* 
+.navbar .navbar-list{
+    margin-top: -410px;
+    margin-bottom: 20px;
+} */
 
 .navbar.active {
     transform: translateX(280px);
@@ -321,7 +327,9 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 .navbar-top {
+    margin-top: -200px;
     display: flex;
+    gap: 50px;
     justify-content: space-between;
     align-items: center;
     padding-block: 10px 30px;
@@ -331,7 +339,9 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     color: var(--st-patricks-blue);
     font-size: 3.6rem;
     font-weight: var(--fw-700);
+
 }
+
 
 .nav-close-btn {
     color: var(--space-cadet-1);
@@ -971,6 +981,17 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Media querrries for index.html */
 
+/* This was done formaking the navigation section
+come up and not stay down as it was before */
+
+@media (max-width: 550px) {
+
+    .navbar .navbar-list {
+        margin-top: -410px;
+        margin-bottom: 20px;
+    }
+}
+
 /* responsiveness for larger than 550px screen */
 
 
@@ -995,6 +1016,11 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
         gap: 5px;
         margin-inline-start: auto;
     }
+
+
+
+
+
 
     /* THE CLASSES SECTION */
 
@@ -1136,11 +1162,10 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
         margin-inline-start: 0;
     }
 
-    .navbar-list {
+    /* .navbar-list .navbar-item a{
         display: flex;
-        gap: 25px;
-
-    }
+        gap: 30px;
+    } */
 
     .navbar-item:not(:last-child) {
         border-bottom: none;
@@ -1222,7 +1247,15 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     .section-title {
         --fs-3: 4.6rem;
     }
-
+    .navbar-list li{
+        display: inline-flex;
+        margin-right: -60px;
+        margin-left: 10px;
+    }
+    
+    .header .btn{
+        margin-left: 50px;
+    }
 
     /* HERO section */
 
