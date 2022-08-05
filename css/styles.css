@@ -706,12 +706,9 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling the upcomingEvenets section starts */
 
+.upcomingEvents {}
 
-.upcomingEvents{
-
-}
-
-.eventsCenter .dateEvent{
+.eventsCenter .dateEvent {
     display: inline-flex;
     position: left;
     background: var(--chrome-yellow);
@@ -722,23 +719,22 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     margin-left: 390px;
 }
 
-.eventsCenter .dateEvent h2{
+.eventsCenter .dateEvent h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: var(--fw-700);
 }
 
 
-.eventsCenter{
+.eventsCenter {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     color: var(--white);
 }
 
-.eventsCenter .event1 i{
+.eventsCenter .event1 i {
     color: var(--chrome-yellow);
 }
 
-.eventsCenter .event1{
+.eventsCenter .event1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-1.jpg");
     height: 450px;
     width: 85%;
@@ -748,34 +744,34 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     cursor: pointer;
 }
 
-.eventsCenter .event1 .eventTalk{
+.eventsCenter .event1 .eventTalk {
     margin-left: 45px;
 }
 
-.eventsCenter .event1 .h3{
+.eventsCenter .event1 .h3 {
     margin-top: 60px;
-    
+
     font-weight: var(--fw-500);
 }
 
-.eventsCenter .event1 h5{
+.eventsCenter .event1 h5 {
     margin-top: 14px;
-    
+
 }
 
-.eventsCenter .event1 p{
+.eventsCenter .event1 p {
     margin-top: 18px;
     font-size: 13px;
     font-weight: 400;
     width: 90%;
 }
 
-.eventsCenter .event1 a{
+.eventsCenter .event1 a {
     margin-top: 21px;
 }
 
 
-.eventsCenter .event2{
+.eventsCenter .event2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-4.jpg");
     height: 450px;
     width: 85%;
@@ -786,7 +782,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 
-.eventsCenter .dateEvent2{
+.eventsCenter .dateEvent2 {
     display: inline-flex;
     position: left;
     background: var(--chrome-yellow);
@@ -797,39 +793,39 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     margin-left: 390px;
 }
 
-.eventsCenter .dateEvent2 h2{
+.eventsCenter .dateEvent2 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: var(--fw-700);
 }
 
 
-.eventsCenter .event2 i{
+.eventsCenter .event2 i {
     color: var(--chrome-yellow);
 }
 
-.eventsCenter .event2 .eventTalk2{
+.eventsCenter .event2 .eventTalk2 {
     margin-left: 45px;
 }
 
-.eventsCenter .event2 .h3{
+.eventsCenter .event2 .h3 {
     margin-top: 60px;
-    
+
     font-weight: var(--fw-500);
 }
 
-.eventsCenter .event2 h5{
+.eventsCenter .event2 h5 {
     margin-top: 14px;
-    
+
 }
 
-.eventsCenter .event2 p{
+.eventsCenter .event2 p {
     margin-top: 18px;
     font-size: 13px;
     font-weight: 400;
     width: 90%;
 }
 
-.eventsCenter .event2 a{
+.eventsCenter .event2 a {
     margin-top: 21px;
 }
 
@@ -1173,9 +1169,45 @@ come up and not stay down as it was before */
         margin-left: 150px;
         margin-top: -15px;
     }
+
+    .eventsCenter .dateEvent {
+        margin-left: 250px;
+    }
+
+    .eventsCenter .dateEvent2 {
+        margin-left: 250px;
+
+    }
+
+    .eventsCenter .event1 {
+        width: 100%;
+    }
+
+    .eventsCenter .event1 .eventTalk {
+        margin-left: 25px;
+    }
+
+    .eventsCenter .event1 .h3 {
+        margin-top: 60px;
+
+
+    }
+
+
+    .eventsCenter .event2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eventsCenter .event2 .eventTalk2 {
+        margin-left: 25px;
+    }
+
+    .eventsCenter .event2 .h3 {
+        margin-top: 60px;
+    }
+
 }
-
-
 
 @media (max-width: 300px) {
 
@@ -1192,6 +1224,7 @@ come up and not stay down as it was before */
         margin-top: -340px;
         margin-bottom: 20px;
     }
+
     .percent {
         margin-left: 120px;
         margin-top: -15px;
@@ -1247,6 +1280,15 @@ come up and not stay down as it was before */
         grid-template-columns: repeat(3, 1fr);
     }
 
+    /* The upcoming events styling */
+
+    .upcomingEvents .eventsCenter {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+
     /* blog card section styling */
     .blog-card {
         display: grid;
@@ -1278,6 +1320,40 @@ come up and not stay down as it was before */
 
 }
 
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .navbar .navbar-list {
+        margin-top: -350px;
+        margin-bottom: 20px;
+    }
+
+    .eventsCenter .dateEvent {
+        margin-left: 50px;
+    }
+
+    .eventsCenter .event1{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eventsCenter .event2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    
+
+    .eventsCenter .dateEvent2 {
+        margin-left: 50px;
+
+    }
+
+   
+}
 
 /* responsiveness for larger than 768px screen */
 
@@ -1324,6 +1400,8 @@ come up and not stay down as it was before */
         grid-template-columns: 1fr 1fr;
         gap: 25px;
     }
+
+
 
     /* The footer section */
 
@@ -1424,6 +1502,10 @@ come up and not stay down as it was before */
         place-items: center;
     }
 
+    .eventsCenter {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 
     /* footer */
 
@@ -1505,7 +1587,7 @@ come up and not stay down as it was before */
     }
 
 
-    .percent{
+    .percent {
         text-align: center;
     }
 
