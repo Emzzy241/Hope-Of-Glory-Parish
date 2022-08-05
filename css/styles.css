@@ -741,7 +741,6 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5%;
-    cursor: pointer;
 }
 
 .eventsCenter .event1 .eventTalk {
@@ -778,7 +777,6 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5%;
-    cursor: pointer;
 }
 
 
@@ -838,16 +836,14 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 /* Styling the voluntters section starts */
 
-.team{
+.team {}
 
-}
-
-.volunteerTeam{
+.volunteerTeam {
     display: grid;
     color: var(--white);
 }
 
-.volunteerTeam .volunteer1{
+.volunteerTeam .volunteer1 {
     background-image: url("../img/3TimberlandWomen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -857,41 +853,62 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     cursor: pointer;
 }
 
-.volunteerTeam .teamShare{
+.volunteerTeam .teamShare {
     background: var(--white);
     border-radius: 10px;
     margin-top: 400px;
     color: var(--black_70);
     width: 90%;
+    height: 240px;
+    box-shadow: var(--shadow);
 }
+
+.volunteerTeam .teamShare h6 {
+    color: var(--chrome-yellow);
+    font-size: 12px;
+    font-family: var(--fw-700);
+}
+
+.volunteerTeam .teamShare h2 {
+    margin-top: 10px;
+    font-weight: var(--fw-700);
+    color: var(--st-patricks-blue);
+}
+
+.volunteerTeam .teamShare p{
+    color: #222;
+    width: 100%;
+}
+
 
 /* Styling the social media icons for the volunteers */
 
-.volunteerTeam .teamSocial{
-     width: 10px;
-     display: inline-flex;
+.volunteerTeam .teamSocial {
+    width: 10px;
+    display: inline-flex;
 }
 
 
-.volunteerTeam .teamSocial a{
-    
+.volunteerTeam .teamSocial a {
+
     text-decoration: none;
     text-align: center;
     padding: 12px;
     border: 2px solid var(--chrome-yellow);
     border-radius: 50%;
     color: var(--st-patricks-blue);
-    margin-left: 20px;
-   
+    margin-left: 10px;
+
 }
 
 .volunteerTeam .teamSocial a:hover {
-    background: var(--razzmattazz);
+    background: var(--chrome-yellow);
     transition: 0.7s;
+    color: var(--white);
 }
 
 
-.volunteerTeam .volunteer2{
+.volunteerTeam .volunteer2 {
     background-image: url("../img/3TimberlandWomen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -901,7 +918,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     cursor: pointer;
 }
 
-.volunteerTeam .volunteer3{
+.volunteerTeam .volunteer3 {
     background-image: url("../img/3TimberlandWomen.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -1414,7 +1431,7 @@ come up and not stay down as it was before */
         margin-left: 50px;
     }
 
-    .eventsCenter .event1{
+    .eventsCenter .event1 {
         width: 100%;
         margin-top: 20px;
     }
@@ -1424,7 +1441,7 @@ come up and not stay down as it was before */
         margin-top: 20px;
     }
 
-    
+
 
     .eventsCenter .dateEvent2 {
         margin-left: 50px;
@@ -1433,19 +1450,19 @@ come up and not stay down as it was before */
 
     /* the volunteer team section styling */
 
-    .volunteerTeam .volunteer1{
-        width: 100%;
-    }
-    
-    .volunteerTeam .volunteer2{
-        width: 100%;
-    }
-    
-    .volunteerTeam .volunteer3{
+    .volunteerTeam .volunteer1 {
         width: 100%;
     }
 
-   
+    .volunteerTeam .volunteer2 {
+        width: 100%;
+    }
+
+    .volunteerTeam .volunteer3 {
+        width: 100%;
+    }
+
+
 }
 
 /* responsiveness for larger than 768px screen */
@@ -1599,7 +1616,7 @@ come up and not stay down as it was before */
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .volunteerTeam{
+    .volunteerTeam {
         grid-template-columns: repeat(3, 1fr);
     }
 
