@@ -1162,12 +1162,21 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 /* Styling the events page starts */
 
 .allBanner {
-    background-image: url("../img/12.jpg");
+    background-image: url("../img/banner-bg.webp");
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;
-    background-position: center;
 
+
+}
+
+.allBanner h2 {
+    margin-top: 110px;
+    color: var(--black_70);
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-500);
 }
 
 
@@ -1351,11 +1360,6 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 
 
-
-
-
-
-}
 
 
 
