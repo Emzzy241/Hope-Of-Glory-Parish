@@ -836,6 +836,85 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 /* Styling the upcomingEvenets section ends */
 
 
+/* Styling the voluntters section starts */
+
+.team{
+
+}
+
+.volunteerTeam{
+    display: grid;
+    color: var(--white);
+}
+
+.volunteerTeam .volunteer1{
+    background-image: url("../img/3TimberlandWomen.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.volunteerTeam .teamShare{
+    background: var(--white);
+    border-radius: 10px;
+    margin-top: 400px;
+    color: var(--black_70);
+    width: 90%;
+}
+
+/* Styling the social media icons for the volunteers */
+
+.volunteerTeam .teamSocial{
+     width: 10px;
+     display: inline-flex;
+}
+
+
+.volunteerTeam .teamSocial a{
+    
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    border: 2px solid var(--chrome-yellow);
+    border-radius: 50%;
+    color: var(--st-patricks-blue);
+    margin-left: 20px;
+   
+}
+
+.volunteerTeam .teamSocial a:hover {
+    background: var(--razzmattazz);
+    transition: 0.7s;
+}
+
+
+.volunteerTeam .volunteer2{
+    background-image: url("../img/3TimberlandWomen.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.volunteerTeam .volunteer3{
+    background-image: url("../img/3TimberlandWomen.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+
+
+/* Styling the voluntters section starts */
 
 
 
@@ -1352,6 +1431,20 @@ come up and not stay down as it was before */
 
     }
 
+    /* the volunteer team section styling */
+
+    .volunteerTeam .volunteer1{
+        width: 100%;
+    }
+    
+    .volunteerTeam .volunteer2{
+        width: 100%;
+    }
+    
+    .volunteerTeam .volunteer3{
+        width: 100%;
+    }
+
    
 }
 
@@ -1503,6 +1596,10 @@ come up and not stay down as it was before */
     }
 
     .eventsCenter {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .volunteerTeam{
         grid-template-columns: repeat(3, 1fr);
     }
 
