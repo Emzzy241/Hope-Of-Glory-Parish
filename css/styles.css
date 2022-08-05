@@ -1180,6 +1180,18 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 
+/* The side bar section for events.html starts */
+
+main .event-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+
+
+/* The side bar section for events.html ends */
+
+
 
 
 
@@ -1933,4 +1945,15 @@ come up and not stay down as it was before */
     }
 
 
+}
+
+
+
+
+/* MEDIA QUERY FOR THE sidebar */
+
+@media only screen and (max-width: 750px){
+    main .event-content{
+        grid-template-columns: 100%;
+    }
 }
