@@ -1159,7 +1159,203 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 
 
 
+/* Styling the events page starts */
 
+.allBanner {
+    background-image: url("../img/12.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
@@ -1299,7 +1495,7 @@ come up and not stay down as it was before */
     .volunteerTeam .volunteer3 {
         margin-top: 200px;
     }
-    
+
     .eventsCenter .event2 {
         width: 100%;
         margin-top: 20px;
@@ -1535,8 +1731,8 @@ come up and not stay down as it was before */
 
     .volunteerTeam .volunteer3 {
         margin-top: 200px;
-    } 
-    
+    }
+
 
 
 
