@@ -1119,6 +1119,17 @@ in home page */
 }
 
 
+.volunteerTeam .volunteer6 {
+    background-image: url("../img/blog4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
 
 
 /* Styling the voluntters section ends */
@@ -2406,6 +2417,10 @@ come up and not stay down as it was before */
         margin-top: 200px;
     }
 
+    .volunteerTeam .volunteer6 {
+        margin-top: 200px;
+    }
+
     .eventsCenter .event2 {
         width: 100%;
         margin-top: 20px;
@@ -2791,6 +2806,11 @@ come up and not stay down as it was before */
         width: 95%;
     }
 
+    .volunteerTeam .volunteer6 {
+        width: 95%;
+    }
+
+
 
     /* the featured-Posts section in blog.html */
 
@@ -2902,6 +2922,10 @@ come up and not stay down as it was before */
     }
 
     .volunteerTeam .volunteer5 {
+        margin-top: 200px;
+    }
+
+    .volunteerTeam .volunteer6 {
         margin-top: 200px;
     }
 
