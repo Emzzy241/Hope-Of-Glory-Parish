@@ -1675,6 +1675,7 @@ main .event-content {
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;
+    text-align: center;
 }
 
 .allBanner3 h2 {
@@ -1686,19 +1687,97 @@ main .event-content {
     font-weight: var(--fw-500);
 }
 
+.allBanner3 .infos i {
+    font-style: normal;
+    color: var(--black_70);
+    font-size: 16px;
+}
+
+
+/* styling the featured posts section in blog.html */
+
+.featured-Posts {
+    margin-top: 70px;
+}
+
+
+.featured-one {
+    display: grid;
+    color: var(--white);
+}
+
+.featured-one .firstFeature {
+    margin-top: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.77)), url("../img/3pink.jpg");
+    height: 350px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+.featured-one .btn {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.featured-one h3 {
+    color: var(--white);
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.featured-one .infos {
+    margin-top: 70px;
+}
+
+.featured-one i {
+
+    font-style: normal;
+    margin-left: 30px;
+    color: var(--white);
+}
 
 
 
 
+/* The second image */
 
 
+.featured-one .secondFeature {
+    margin-top: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.77)), url("../img/10sneakersFoot.jpg");
+    height: 350px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+/* The third image in featured-Posts */
+
+.featured-one .thirdFeature {
+    margin-top: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.77)), url("../img/12.jpg");
+    height: 350px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
+
+/* The fourth image in featured-Posts */
 
 
-
-
-
-
-
+.featured-one .fourthFeature {
+    margin-top: 15px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.77)), url("../img/9swaggystyles.jpg");
+    height: 350px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3%;
+}
 
 
 
@@ -2077,6 +2156,37 @@ come up and not stay down as it was before */
         margin-top: 60px;
     }
 
+
+    /* For featured-Posts in blog.html */
+
+    .featured-one .firstFeature {
+        width: 100%;
+    }
+
+    .featured-one .featured-oneTalk {
+        margin-left: 10px;
+    }
+
+    .featured-one .btn {
+        margin-left: 30px;
+    }
+
+    .featured-one h3 {
+        margin-left: 30px;
+    }
+
+    .featured-one .secondFeature {
+        width: 100%;
+    }
+
+    .featured-one .thirdFeature {
+        width: 100%;
+    }
+
+    .featured-one .fourthFeature {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 300px) {
@@ -2109,6 +2219,7 @@ come up and not stay down as it was before */
     .eventTypes .event-Time {
         margin-left: 30px;
     }
+    
 }
 
 /* responsiveness for larger than 550px screen */
@@ -2177,7 +2288,7 @@ come up and not stay down as it was before */
         grid-template-columns: repeat(2, 1fr);
     }
 
-    
+
     .upcomingCampaigns .campaignsCenter2 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -2187,6 +2298,26 @@ come up and not stay down as it was before */
     .team .volunteerTeam {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    /* The featured post in blog.html */
+
+    .featured-Posts .featured-one {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Spacing the images for only ipad Mini screen */
+
+    .featured-one .secondFeature {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .featured-one .fourthFeature {
+        width: 90%;
+        margin-left: 15px;
+    }
+
 
 
 
@@ -2341,6 +2472,36 @@ come up and not stay down as it was before */
         width: 95%;
     }
 
+    /* the featured-Posts section in blog.html */
+
+
+    .featured-one .btn {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+
+    .featured-one h3 {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    /* All images */
+    .featured-Posts .firstFeature {
+        width: 100%;
+    }
+
+    .featured-Posts .secondFeature {
+        width: 100%;
+    }
+
+    .featured-Posts .thirdFeature {
+        width: 100%;
+    }
+
+    .featured-Posts .fourthFeature {
+        width: 100%;
+    }
 
 }
 
@@ -2521,6 +2682,7 @@ come up and not stay down as it was before */
     .eventsCenter {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .eventsCenter2 {
         grid-template-columns: repeat(3, 1fr);
     }
