@@ -828,6 +828,139 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 
+/* Second 2 set of images for events.html and event section
+in home page */
+
+
+
+
+
+.eventsCenter2 .dateEvent {
+    display: inline-flex;
+    position: left;
+    background: var(--chrome-yellow);
+    width: 80px;
+    padding: 15px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 390px;
+}
+
+.eventsCenter2 .dateEvent h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+}
+
+
+.eventsCenter2 {
+    display: grid;
+    color: var(--white);
+}
+
+.eventsCenter2 .event1 i {
+    color: var(--chrome-yellow);
+}
+
+.eventsCenter2 .event1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/4.jpeg");
+    height: 450px;
+    width: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.eventsCenter2 .event1 .eventTalk {
+    margin-left: 45px;
+}
+
+.eventsCenter2 .event1 .h3 {
+    margin-top: 60px;
+
+    font-weight: var(--fw-500);
+}
+
+.eventsCenter2 .event1 h5 {
+    margin-top: 14px;
+
+}
+
+.eventsCenter2 .event1 p {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.eventsCenter2 .event1 a {
+    margin-top: 21px;
+}
+
+
+.eventsCenter2 .event2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/10.jpeg");
+    height: 450px;
+    width: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+
+.eventsCenter2 .dateEvent2 {
+    display: inline-flex;
+    position: left;
+    background: var(--chrome-yellow);
+    width: 80px;
+    padding: 15px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 390px;
+}
+
+.eventsCenter2 .dateEvent2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+}
+
+
+.eventsCenter2 .event2 i {
+    color: var(--chrome-yellow);
+}
+
+.eventsCenter2 .event2 .eventTalk2 {
+    margin-left: 45px;
+}
+
+.eventsCenter2 .event2 .h3 {
+    margin-top: 60px;
+
+    font-weight: var(--fw-500);
+}
+
+.eventsCenter2 .event2 h5 {
+    margin-top: 14px;
+
+}
+
+.eventsCenter2 .event2 p {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.eventsCenter2 .event2 a {
+    margin-top: 21px;
+}
+
+
+
+
+
+
+
+
 
 
 
