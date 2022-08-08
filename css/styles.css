@@ -1881,6 +1881,11 @@ main .post-content .post-title a{
     display: inline-flex;
 }
 
+.flex-row2{
+    display: inline-flexbox;
+    width: 50%;
+}
+
 /* Styling the pagination in site-content */
 
 .site-content .pagination{
@@ -1934,7 +1939,6 @@ main .post-content .post-title a{
 
 .site-content .h2{
     font-size: var(--fs-4);
-    margin-top: 20px;
     color: black;
     font-weight: var(--fw-600);
 }
@@ -1944,7 +1948,7 @@ main .post-content .post-title a{
 }
 
 .site-content .blog-sidebar .popular-post h2{
-    padding-top: 16rem;
+    padding-top: 10rem;
 }
 
 .site-content .blog-sidebar .popular-post .post-info{
@@ -1965,7 +1969,7 @@ main .post-content .post-title a{
 /* The newsletter in the sidebar */
 
 .site-content .blog-sidebar .newsletter{
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 
 .site-content .blog-sidebar .newsletter .form-element{
@@ -1985,6 +1989,27 @@ main .post-content .post-title a{
     border-radius: 0;
     margin: 1rem 0;
 }
+
+
+/* Styling the popular tags section */
+
+
+.site-content .blog-sidebar .popular-Tags{
+    padding: 5rem 0;
+}
+
+
+
+.site-content .blog-sidebar .popular-Tags .tags .tag{
+    background: lightblue;
+    padding: 0.4rem 1rem;
+    width: 70%;
+    justify-content: space-between;
+    color: black;
+    border-radius: 3rem;
+    margin: 0.4rem 0.6rem;
+}
+
 
 
 
