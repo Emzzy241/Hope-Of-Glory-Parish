@@ -155,9 +155,19 @@ we want to edit scroll-bar now */
 
 /* Re used style starts */
 
+
+/* re used style for blog in read-Up in blog.html starts */
+
 .text-gray{
     color: var(--black_70);
 }
+
+.site-content .post-title p{
+    font-family: var(--ff-source-sans-pro);
+}
+
+
+/* re used style for blog in read-Up in blog.html ends */
 
 .h2 {
     font-family: var(--ff-source-sans-pro);
@@ -1798,7 +1808,7 @@ main .read-Up .site-content{
 
 main .read-Up .post-content{
     width: 100%;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
 
 main .site-content .post-content > .post-image, .post-title{
@@ -1838,6 +1848,8 @@ main .site-content .post-content > .post-image .post-info span{
 main .post-content .post-title a{
     font-family: var(--ff-poppins);
     font-size: var(--fs-6);
+    color: var(--royal-blue-dark);
+    font-weight: var(--fw-600);
 } 
 
 .site-content .post-content .post-title .post-btn{
