@@ -1016,7 +1016,7 @@ in home page */
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 90%;
+    width: 80%;
     border-radius: 10%;
     cursor: pointer;
 }
@@ -1081,7 +1081,7 @@ in home page */
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 90%;
+    width: 80%;
     border-radius: 10%;
     cursor: pointer;
 }
@@ -1091,7 +1091,29 @@ in home page */
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-    width: 90%;
+    width: 80%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+/* @ more volunteers used in the volunteer.html page */
+.volunteerTeam .volunteer4 {
+    object-fit: contain;
+    background-image: url("../img/blog1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.volunteerTeam .volunteer5 {
+    background-image: url("../img/blog2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
     border-radius: 10%;
     cursor: pointer;
 }
@@ -2030,6 +2052,42 @@ main .post-content .post-title a{
 
 
 
+/* Styling the volunteer.html section starts */
+
+    /* The hero section styling in volunteer page starts  */
+
+    
+.allBanner4 {
+    background-image: url("../img/banner-bg.webp");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.allBanner4 h2 {
+    margin-top: 110px;
+    color: var(--black_70);
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-500);
+}
+
+
+    /* The hero section styling in volunteer page ends  */
+
+
+
+
+
+
+
+
+/* Styling the volunteer.html section ends */
+
+
+
 
 
 
@@ -2337,6 +2395,14 @@ come up and not stay down as it was before */
     }
 
     .volunteerTeam .volunteer3 {
+        margin-top: 200px;
+    }
+
+    .volunteerTeam .volunteer4 {
+        margin-top: 200px;
+    }
+
+    .volunteerTeam .volunteer5 {
         margin-top: 200px;
     }
 
@@ -2716,6 +2782,16 @@ come up and not stay down as it was before */
         width: 95%;
     }
 
+
+    .volunteerTeam .volunteer4 {
+        width: 95%;
+    }
+
+    .volunteerTeam .volunteer5 {
+        width: 95%;
+    }
+
+
     /* the featured-Posts section in blog.html */
 
 
@@ -2818,6 +2894,14 @@ come up and not stay down as it was before */
     }*/
 
     .volunteerTeam .volunteer3 {
+        margin-top: 200px;
+    }
+
+    .volunteerTeam .volunteer4 {
+        margin-top: 200px;
+    }
+
+    .volunteerTeam .volunteer5 {
         margin-top: 200px;
     }
 
