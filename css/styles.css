@@ -1277,6 +1277,249 @@ main .event-content {
 }
 
 
+.upcomingCampaigns {}
+
+.campaignsCenter .dateCampaign {
+    display: inline-flex;
+    position: left;
+    background: var(--chrome-yellow);
+    width: 80px;
+    padding: 15px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 390px;
+}
+
+.campaignsCenter .dateCampaign h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+}
+
+
+.campaignsCenter {
+    display: grid;
+    color: var(--white);
+}
+
+.campaignsCenter .campaign1 i {
+    color: var(--chrome-yellow);
+}
+
+.campaignsCenter .campaign1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/10Nike.jpeg");
+    height: 450px;
+    width: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.campaignsCenter .campaign1 .campaignTalk {
+    margin-left: 45px;
+}
+
+.campaignsCenter .campaign1 .h3 {
+    margin-top: 60px;
+
+    font-weight: var(--fw-500);
+}
+
+.campaignsCenter .campaign1 h5 {
+    margin-top: 14px;
+
+}
+
+.campaignsCenter .campaign1 p {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.campaignsCenter .campaign1 a {
+    margin-top: 21px;
+}
+
+
+
+/* second image for campaign.html */
+
+
+.campaignsCenter .campaign2 i {
+    color: var(--chrome-yellow);
+}
+
+
+
+.campaignsCenter .campaign2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/3WhiteRockandRole.jpg");
+    height: 450px;
+    width: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.campaignsCenter .campaign2 .campaignTalk2 {
+    margin-left: 45px;
+}
+
+.campaignsCenter .campaign2 .h3 {
+    margin-top: 60px;
+
+    font-weight: var(--fw-500);
+}
+
+.campaignsCenter .campaign2 h5 {
+    margin-top: 14px;
+
+}
+
+.campaignsCenter .campaign2 p {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.campaignsCenter .campaign2 a {
+    margin-top: 21px;
+}
+
+
+/* The second 2 images for campaign */
+
+
+
+.campaignsCenter2 .dateCampaign {
+    display: inline-flex;
+    position: left;
+    background: var(--chrome-yellow);
+    width: 80px;
+    padding: 15px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 390px;
+}
+
+.campaignsCenter2 .dateCampaign h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+}
+
+
+.campaignsCenter2 {
+    display: grid;
+    color: var(--white);
+}
+
+.campaignsCenter2 .campaign1 i {
+    color: var(--chrome-yellow);
+}
+
+.campaignsCenter2 .campaign1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/about-banner.png");
+    height: 450px;
+    width: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.campaignsCenter2 .campaign1 .campaignTalk {
+    margin-left: 45px;
+}
+
+.campaignsCenter2 .campaign1 .h3 {
+    margin-top: 60px;
+
+    font-weight: var(--fw-500);
+}
+
+.campaignsCenter2 .campaign1 h5 {
+    margin-top: 14px;
+
+}
+
+.campaignsCenter2 .campaign1 p {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.campaignsCenter2 .campaign1 a {
+    margin-top: 21px;
+}
+
+
+
+/* second image for campaign.html */
+
+
+.campaignsCenter2 .dateCampaign2 {
+    display: inline-flex;
+    position: left;
+    background: var(--chrome-yellow);
+    width: 80px;
+    padding: 15px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 390px;
+}
+
+.campaignsCenter2 .dateCampaign2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+}
+
+
+.campaignsCenter2 {
+    display: grid;
+    color: var(--white);
+}
+
+
+.campaignsCenter2 .campaign2 i {
+    color: var(--chrome-yellow);
+}
+
+
+
+.campaignsCenter2 .campaign2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/10.jpeg");
+    height: 450px;
+    width: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.campaignsCenter2 .campaign2 .campaignTalk2 {
+    margin-left: 45px;
+}
+
+.campaignsCenter2 .campaign2 .h3 {
+    margin-top: 60px;
+
+    font-weight: var(--fw-500);
+}
+
+.campaignsCenter2 .campaign2 h5 {
+    margin-top: 14px;
+
+}
+
+.campaignsCenter2 .campaign2 p {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.campaignsCenter2 .campaign2 a {
+    margin-top: 21px;
+}
 
 
 
@@ -1581,6 +1824,31 @@ come up and not stay down as it was before */
 
     }
 
+    /* our Campaign's section in campaign.html */
+
+    .campaignsCenter .dateCampaign {
+        margin-left: 250px;
+    }
+
+    .campaignsCenter .dateCampaign2 {
+        margin-left: 250px;
+
+    }
+
+    .campaignsCenter .campaign1 {
+        width: 100%;
+    }
+
+    .campaignsCenter .campaign1 .campaignTalk {
+        margin-left: 25px;
+    }
+
+    .campaignsCenter .campaign1 .h3 {
+        margin-top: 60px;
+
+
+    }
+
     /* The volunteers section */
 
 
@@ -1602,6 +1870,53 @@ come up and not stay down as it was before */
     }
 
     .eventsCenter .event2 .h3 {
+        margin-top: 60px;
+    }
+
+    /* Second event image */
+
+
+    .eventsCenter2 .event2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eventsCenter2 .event2 .eventTalk2 {
+        margin-left: 25px;
+    }
+
+    .eventsCenter2 .event2 .h3 {
+        margin-top: 60px;
+    }
+
+    /* For campaigns */
+
+    .campaignsCenter .campaign1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .campaignsCenter .campaign2 .campaignTalk2 {
+        margin-left: 25px;
+    }
+
+    .campaignsCenter .campaign2 .h3 {
+        margin-top: 60px;
+    }
+
+    /* Second campaign image */
+
+
+    .campaignsCenter2 .event2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .campaignsCenter2 .event2 .eventTalk2 {
+        margin-left: 25px;
+    }
+
+    .campaignsCenter2 .event2 .h3 {
         margin-top: 60px;
     }
 
@@ -1694,6 +2009,24 @@ come up and not stay down as it was before */
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .upcomingEvents .eventsCenter2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* The campaigns section in campaign.html */
+
+    .upcomingCampaigns .campaignsCenter {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+    .upcomingCampaigns .campaignsCenter2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
     .team .volunteerTeam {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1764,6 +2097,79 @@ come up and not stay down as it was before */
 
     }
 
+    /* Second image in events */
+
+    .eventsCenter2 .dateEvent {
+        margin-left: 50px;
+    }
+
+    .eventsCenter2 .event1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eventsCenter2 .event2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .eventsCenter2 .dateEvent2 {
+        margin-left: 50px;
+
+    }
+
+
+    /* The campaign section in campaign.html */
+
+    .campaignsCenter .dateCampaign {
+        margin-left: 50px;
+    }
+
+    .campaignsCenter .campaign1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .campaignsCenter .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .campaignsCenter .dateCampaign2 {
+        margin-left: 50px;
+
+    }
+
+    /* Second image  */
+
+
+    .campaignsCenter2 .dateCampaign {
+        margin-left: 50px;
+    }
+
+    .campaignsCenter2 .campaign1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .campaignsCenter2 .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    .campaignsCenter2 .dateCampaign2 {
+        margin-left: 50px;
+
+    }
+
+
+
     /* the volunteer team section styling */
 
     .volunteerTeam .volunteer1 {
@@ -1817,6 +2223,20 @@ come up and not stay down as it was before */
     }
 
     .eventsCenter {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .eventsCenter2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* The campaigns section in campaign.html */
+
+    .campaignsCenter {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .campaignsCenter2 {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -1944,8 +2364,20 @@ come up and not stay down as it was before */
     .eventsCenter {
         grid-template-columns: repeat(3, 1fr);
     }
+    .eventsCenter2 {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     .volunteerTeam {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* The campaign section in campaign.html */
+    .campaignsCenter {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .campaignsCenter2 {
         grid-template-columns: repeat(3, 1fr);
     }
 
