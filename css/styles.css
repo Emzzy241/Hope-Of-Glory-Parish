@@ -158,9 +158,7 @@ we want to edit scroll-bar now */
 
 /* re used style for blog in read-Up in blog.html starts */
 
-.text-gray{
-    color: var(--black_70);
-}
+
 
 .site-content .post-title p{
     font-family: var(--ff-source-sans-pro);
@@ -1846,6 +1844,7 @@ main .site-content .post-content > .post-image .post-info{
     bottom: 0%;
     left: 20vw;
     border-radius: 3rem;
+    color: black;
 }
 
 main .site-content .post-content > .post-image > div{
@@ -1933,10 +1932,39 @@ main .post-content .post-title a{
     justify-content: space-between;
 }
 
+.site-content .h2{
+    font-size: var(--fs-4);
+    margin-top: 20px;
+    color: black;
+    font-weight: var(--fw-600);
+}
+
+.site-content .blog-sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
+
+.site-content .blog-sidebar .popular-post h2{
+    padding-top: 16rem;
+}
+
+.site-content .blog-sidebar .popular-post .post-info{
+    /* we used !important because we don't want to call the default property instead call the new one we want to write*/
+    padding: 0.4rem 0.1rem !important;
+    bottom: 0rem !important;
+    left: 1.5rem !important;
+    border-radius: 0rem !important;
+    background: var(--white) !important;
+}
+
+/* Reducing the font-size of popular posts */
+
+.site-content .blog-sidebar .popular-post .post-title a{
+    font-size: 1.6rem;
+}
 
 
 
-/* The sidebar section starts */
+/* The sidebar section ends */
 
 
 
