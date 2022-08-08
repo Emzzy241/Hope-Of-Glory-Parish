@@ -1393,6 +1393,8 @@ main .event-content {
 /* Starting the styling for the campaign.html page */
 
 
+/* banner image for campaign.html */
+
 .allBanner2 {
     background-image: url("../img/banner-bg.webp");
     background-repeat: no-repeat;
@@ -1656,11 +1658,33 @@ main .event-content {
 
 
 
+/* done with the campaign.html page and it's styling */
 
 
 
 
 
+/* Styling the blog.html page */
+
+
+
+/* banner image for blog.html */
+
+.allBanner3 {
+    background-image: url("../img/banner-bg.webp");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+.allBanner3 h2 {
+    margin-top: 110px;
+    color: var(--black_70);
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-500);
+}
 
 
 
