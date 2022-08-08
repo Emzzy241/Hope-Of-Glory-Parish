@@ -1876,7 +1876,6 @@ main .post-content .post-title a{
 
 
 
-
 /* if internet works and the class for flex-row is also working, remove this: */
 
 .flex-row{
@@ -1906,10 +1905,42 @@ main .post-content .post-title a{
 }
 
 
+
+
+/* The sidebar section starts */
+
+.site-content > .blog-sidebar li{
+    display: flex;
+    color: #222;
+}
+
+.site-content > .blog-sidebar .category-list .list-items a{
+    color: black;
+}
+
+.site-content > .blog-sidebar .category-list{
+    font-family: var(--ff-source-sans-pro);
+
+}
+
+.site-content > .blog-sidebar .category-list .list-items{
+    background: lightblue;
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* The sidebar section starts */
+
+
+
 /* site-content section ends */
-
-
-
 
 
 /* The read-Up section ends */
