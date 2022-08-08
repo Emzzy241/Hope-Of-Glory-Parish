@@ -188,9 +188,31 @@ we want to edit scroll-bar now */
     background-position: right;
 }
 
+
+/* Second btn used only in 2nd section of blog.html... the read-Up section */
+
+.btn2 {
+    background-image: var(--gradient-2);
+    width: 155px;
+    background-size: 200%;
+    color: var(--white);
+    padding: 12px 34px;
+    font-size: var(--fs-8);
+    font-weight: var(--fw-500);
+    transition: var(--transition-2);
+}
+
+.btn2:is(:hover, :focus) {
+    background-position: right;
+    color: black;
+}
+
+
 .w-100 {
     width: 100%;
 }
+
+/* The animation created */
 
 .banner-animation {
     animation: waveAnim 2s linear infinite alternate;
@@ -1852,11 +1874,6 @@ main .post-content .post-title a{
     font-weight: var(--fw-600);
 } 
 
-.site-content .post-content .post-title .post-btn{
-    border-radius: 0;
-    padding: 0.7rem 1.5rem;
-    background: var(--rajah);
-}
 
 
 
