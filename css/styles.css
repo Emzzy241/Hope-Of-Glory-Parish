@@ -1883,8 +1883,31 @@ main .post-content .post-title a{
     display: inline-flex;
 }
 
+/* Styling the pagination in site-content */
+
+.site-content .pagination{
+    justify-content: center;
+    margin: 4rem 0;
+    
+}
+
+.site-content .pagination a{
+    
+    display: inline-flex;
+    padding: 0.9rem 1.4rem;
+    border-radius: 2rem;
+    margin: 0.3rem;
+    font-family: var(--ff-poppins);
+}
+
+.site-content .page{
+    background: #222;
+    color: var(--white);
+}
+
 
 /* site-content section ends */
+
 
 
 
