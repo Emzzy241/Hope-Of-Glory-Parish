@@ -2279,11 +2279,24 @@ main .post-content .post-title a{
 /* The banner section for contact page ends */
 
 
-/* The wide map section starts */
 
 
+/* The call-On-Us map section starts */
 
-/* The wide map section ends */
+.call-On-Us{
+    margin-top: 100px;
+}
+
+.call-On-Us .contact-Us h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+    font-size: 4.3rem;
+    text-align: end;
+    color: #222;
+}
+
+
+/* The call-On-Us map section ends */
 
 
 
