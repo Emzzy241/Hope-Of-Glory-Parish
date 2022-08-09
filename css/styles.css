@@ -2123,6 +2123,8 @@ main .post-content .post-title a{
 
 /* Styling the banner section in about pag ends */
 
+
+/* Styling the we-Work section starts */
 .we-Work{
     margin-top: 120px;
 }
@@ -2143,6 +2145,47 @@ main .post-content .post-title a{
     color: #222;
 }
 
+/* Styling the we-Work section ends */
+
+
+
+
+/* The what-we-do section starts */
+
+.what-WE-DO{
+    margin-top: 60px;
+}
+
+.what-WE-DO .doing .doing-one{
+    border-radius: var(--radius-12);
+    box-shadow: var(--shadow);
+    text-align: center;
+    height: 170px;
+}
+
+.what-WE-DO .doing .doing-one .things{
+    margin-top: 1.5rem;
+}
+
+.what-WE-DO .doing .doing-one .things p{
+    margin-top: 1.5rem;
+}
+
+.what-WE-DO .doing .doing-one .things i{
+    cursor: pointer;
+    
+    border: 1.4px solid var(--winter-sky);
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 0.9rem 1.4rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+
+
+
+
+/* The what-we-do section ends */
 
 
 
@@ -2985,6 +3028,13 @@ come up and not stay down as it was before */
         grid-template-columns: 1fr 1fr;
     }
 
+    /* The what-WE-DO section in about.html */
+
+    .doing{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
 
 
     /* The footer section */
@@ -3109,9 +3159,7 @@ come up and not stay down as it was before */
 
 
     /* The we-Work section in about.html */
-    .we-Work{
-        grid-template-columns: repeat(2, 0.6fr);
-    }
+   
 
     /* footer */
 
