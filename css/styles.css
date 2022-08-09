@@ -37,6 +37,7 @@
     --fw-500: 500;
     --fw-600: 600;
     --fw-700: 700;
+    --fw-900: 900;
 
 
 
@@ -2099,6 +2100,8 @@ main .post-content .post-title a{
 
 /* Styling about .html page starts */
 
+
+/* Styling the banner section in about page starts */
   
 .allBanner5 {
     background-image: url("../img/banner-bg.webp");
@@ -2116,6 +2119,30 @@ main .post-content .post-title a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: var(--fw-500);
 }
+
+
+/* Styling the banner section in about pag ends */
+
+.we-Work{
+    margin-top: 120px;
+}
+
+.we-Work .places .place-one{
+    width: 90%;
+}
+
+.we-Work .places .place-one h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+    font-size: 4.3rem;
+    text-align: end;
+    color: #222;
+}
+
+.we-Work .places .placeTalk p{
+    color: #222;
+}
+
 
 
 
@@ -2951,6 +2978,13 @@ come up and not stay down as it was before */
     }
 
 
+    /* The we-Work section in about.html */
+
+    .places{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
 
 
     /* The footer section */
@@ -3074,6 +3108,11 @@ come up and not stay down as it was before */
     }
 
 
+    /* The we-Work section in about.html */
+    .we-Work{
+        grid-template-columns: repeat(2, 0.6fr);
+    }
+
     /* footer */
 
     .footer-top .container {
@@ -3089,7 +3128,7 @@ come up and not stay down as it was before */
     }
 
 }
-
+/* hereeeee */
 
 
 /* responsiveness for larger than 1200px screen 
