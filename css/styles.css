@@ -2063,7 +2063,7 @@ main .post-content .post-title a{
 
 
 
-/* Styling the volunteer.html section starts */
+/* Styling the volunteer.html page starts */
 
     /* The hero section styling in volunteer page starts  */
 
@@ -2088,18 +2088,39 @@ main .post-content .post-title a{
 
     /* The hero section styling in volunteer page ends  */
 
+    /* The remaining styles are in volunteerTeam, ctrl+f to find it */
 
 
 
 
+/* Styling the volunteer.html page ends */
 
 
 
-/* Styling the volunteer.html section ends */
+/* Styling about .html page starts */
+
+  
+.allBanner5 {
+    background-image: url("../img/banner-bg.webp");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.allBanner5 h2 {
+    margin-top: 110px;
+    color: var(--black_70);
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-500);
+}
 
 
 
 
+/* Styling about .html page ends */
 
 
 
