@@ -2281,7 +2281,7 @@ main .post-content .post-title a{
 
 
 
-/* The call-On-Us map section starts */
+/* The call-On-Us section starts */
 
 .call-On-Us{
     margin-top: 100px;
@@ -2293,10 +2293,53 @@ main .post-content .post-title a{
     font-size: 4.3rem;
     text-align: end;
     color: #222;
+    width: 85%;
+}
+
+.call-On-Us .contact-Us .contacting p{
+    color: #222;
+    width: 85%;
+}
+
+.call-On-Us .contact-Us .our-Contacts .locate .locating {
+    outline: .1rem solid var(--chrome-yellow);
+    outline-offset: -0.07rem;
+    padding: 3rem 2rem;
+    border-radius: var(--radius-12);
+    margin-top: 25px;
+}
+
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one .fas{
+    outline: .1rem solid var(--chrome-yellow);
+    outline-offset: -0.07rem;
+    background: var(--chrome-yellow);
+    padding: 2rem 2.2rem;
+    border-radius: 100%;
+    font-size: 30px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h3{
+    font-size: 20px;
+    color: #222;
+}
+
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a{
+    color: #222;
+    font-size: 13px;
+}
+
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a:hover{
+    color: var(--amaranth-purple);
+    text-decoration: underline;
+    transition: .6s;
 }
 
 
-/* The call-On-Us map section ends */
+
+
+/* The call-On-Us section ends */
 
 
 
