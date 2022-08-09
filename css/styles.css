@@ -2248,11 +2248,47 @@ main .post-content .post-title a{
 
 
 
-
-
-
 /* Styling about .html page ends */
 
+
+
+/* Styling the contact.html page starts */
+
+
+
+/* The banner section for contact page ends */
+
+
+.allBanner6 {
+    background-image: url("../img/banner-bg.webp");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.allBanner6 h2 {
+    margin-top: 110px;
+    color: var(--black_70);
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: var(--fw-500);
+}
+
+/* The banner section for contact page ends */
+
+
+/* The wide map section starts */
+
+
+
+/* The wide map section ends */
+
+
+
+
+/* Styling the contact.html page ends */
 
 
 
