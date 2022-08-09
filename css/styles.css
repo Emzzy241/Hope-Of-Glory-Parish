@@ -2203,8 +2203,50 @@ main .post-content .post-title a{
 
 
 
-
 /* The what-we-do section ends */
+
+
+
+
+/* The mission section starts */
+
+
+.mission .all-missions .mission-one{
+    border-radius: var(--radius-12);
+    box-shadow: var(--shadow);
+    background: var(--chrome-yellow);
+    outline: .1rem solid var(--white);
+    outline-offset: -1rem;
+    padding: 3rem 2rem;
+}
+
+.mission .all-missions .mission-one h2{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 28px;
+    color: #222;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: var(--fw-700);
+}
+
+.mission .all-missions .mission-one p{
+    color: var(--black_70);
+    margin-left: 30px;
+    width: 85%;
+}
+
+
+
+.mission{
+    margin-top: 125px;
+    margin-block-end: 40px;
+}
+
+
+/* The mission section ends */
+
+
+
 
 
 
@@ -2622,6 +2664,18 @@ come up and not stay down as it was before */
         width: 100%;
     }
 
+    /* top spacing in about.html page */
+
+    
+.mission{
+    margin-top: 125px;
+    margin-block-end: -10px;
+}
+
+    .all-missions .mission-one{
+        margin-block-end: 20px;
+    }
+
 }
 
 @media (max-width: 300px) {
@@ -2786,6 +2840,7 @@ come up and not stay down as it was before */
         gap: 30px 50px;
     }
 
+    
 }
 
 
@@ -3046,6 +3101,13 @@ come up and not stay down as it was before */
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .all-missions{
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
 
     /* The what-WE-DO section in about.html */
 
