@@ -192,7 +192,7 @@ we want to edit scroll-bar now */
 
 .btn2 {
     background-image: var(--gradient-2);
-    width: 155px;
+    width: 170px;
     background-size: 200%;
     color: var(--white);
     padding: 12px 34px;
@@ -1007,6 +1007,12 @@ in home page */
 
 .team {}
 
+.volunteerTeam a i{
+    font-size: 20px;
+}
+
+
+
 .volunteerTeam {
     display: grid;
     color: var(--white);
@@ -1019,7 +1025,6 @@ in home page */
     height: 500px;
     width: 80%;
     border-radius: 10%;
-    cursor: pointer;
 }
 
 .volunteerTeam .teamShare {
@@ -1084,7 +1089,6 @@ in home page */
     height: 500px;
     width: 80%;
     border-radius: 10%;
-    cursor: pointer;
 }
 
 .volunteerTeam .volunteer3 {
@@ -1094,7 +1098,6 @@ in home page */
     height: 500px;
     width: 80%;
     border-radius: 10%;
-    cursor: pointer;
 }
 
 /* @ more volunteers used in the volunteer.html page */
@@ -1106,7 +1109,6 @@ in home page */
     height: 500px;
     width: 80%;
     border-radius: 10%;
-    cursor: pointer;
 }
 
 .volunteerTeam .volunteer5 {
@@ -1116,7 +1118,6 @@ in home page */
     height: 500px;
     width: 80%;
     border-radius: 10%;
-    cursor: pointer;
 }
 
 
@@ -1127,7 +1128,6 @@ in home page */
     height: 500px;
     width: 80%;
     border-radius: 10%;
-    cursor: pointer;
 }
 
 
@@ -1269,7 +1269,7 @@ in home page */
 
 .footer-top .social-link {
     background-color: var(--white);
-    color: var(--white);
+    color: var(--razzmattazz);
     font-size: 18px;
     padding: 8px;
     border-radius: 50%;
@@ -1439,6 +1439,11 @@ main .event-content {
 .sidebar .detail {
     display: inline-block;
     font-weight: var(--fw-700);
+    color: #222;
+}
+
+.sidebar .detail i{
+    color: var(--chrome-yellow);
 }
 
 .sidebar h1 {
@@ -1740,16 +1745,17 @@ main .event-content {
 /* banner image for blog.html */
 
 .allBanner3 {
-    background-image: url("../img/banner-bg.webp");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.77)), url("../img/banner-bg.webp");
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;
     text-align: center;
+    color: var(--white);
 }
 
 .allBanner3 h2 {
     margin-top: 110px;
-    color: var(--black_70);
+    color: var(--white);
     text-align: center;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -1759,7 +1765,13 @@ main .event-content {
 .infos i {
     font-style: normal;
     color: var(--black_70);
-    font-size: 16px;
+    font-size: 13px;
+    color: var(--white);
+}
+
+.infos h6{
+    font-size: 14px;
+    width: 100%;
 }
 
 
@@ -1925,8 +1937,12 @@ main .post-content .post-title a{
 .site-content .pagination{
     justify-content: center;
     margin: 4rem 0;
-    
 }
+
+.site-content .pagination .fas{
+    color: #222;
+}
+
 
 .site-content .pagination a{
     
