@@ -698,7 +698,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
 }
 
 .eventsCenter .event1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/bornoCitizens.jpeg");
     height: 450px;
     width: 85%;
     background-size: cover;
@@ -732,9 +732,10 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     margin-top: 21px;
 }
 
-
+/* 
+marginleft remove it Emmanuel */
 .eventsCenter .event2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-4.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/tacklePoverty.jpg");
     height: 450px;
     width: 85%;
     background-size: cover;
@@ -952,7 +953,7 @@ in home page */
 }
 
 .volunteerTeam .volunteer1 {
-    background-image: url("../img/3TimberlandWomen.jpeg");
+    background-image: url("../img/volunteer11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -1016,7 +1017,8 @@ in home page */
 
 
 .volunteerTeam .volunteer2 {
-    background-image: url("../img/3TimberlandWomen.jpeg");
+    background-image: url("../img/volunteer1.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -1025,7 +1027,8 @@ in home page */
 }
 
 .volunteerTeam .volunteer3 {
-    background-image: url("../img/3TimberlandWomen.jpeg");
+    background-image: url("../img/volunteer2.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -1036,7 +1039,8 @@ in home page */
 /* @ more volunteers used in the volunteer.html page */
 .volunteerTeam .volunteer4 {
     object-fit: contain;
-    background-image: url("../img/blog1.png");
+    background-image: url("../img/volunteer5.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -1045,7 +1049,8 @@ in home page */
 }
 
 .volunteerTeam .volunteer5 {
-    background-image: url("../img/blog2.png");
+    background-image: url("../img/volunteer4.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -1055,7 +1060,8 @@ in home page */
 
 
 .volunteerTeam .volunteer6 {
-    background-image: url("../img/blog4.png");
+    background-image: url("../img/volunteer7.webp");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -2304,17 +2310,18 @@ main .post-content .post-title a {
 }
 
 
-.call-On-Us form{
+.call-On-Us form {
     width: 90%;
     max-width: 600px;
 }
 
-.call-On-Us .input-group{
+.call-On-Us .input-group {
     margin-bottom: 30px;
     position: relative;
 }
 
-.call-On-Us input, textarea{
+.call-On-Us input,
+textarea {
     width: 100%;
     padding: 10px;
     outline: 0;
@@ -2323,7 +2330,8 @@ main .post-content .post-title a {
     background: transparent;
     font-size: 15px;
 }
-.call-On-Us label{
+
+.call-On-Us label {
     height: 100%;
     position: absolute;
     left: 0;
@@ -2334,7 +2342,7 @@ main .post-content .post-title a {
     transition: 0.2s;
 }
 
-.call-On-Us button{
+.call-On-Us button {
     padding: 10px 0;
     color: var(--white);
     outline: none;
@@ -2350,7 +2358,7 @@ or textarea */
 .call-On-Us input:focus~label,
 .call-On-Us input:valid~label,
 .call-On-Us textarea:focus~label,
-.call-On-Us textarea:valid~label{
+.call-On-Us textarea:valid~label {
     top: -35px;
     font-size: 14px;
 }
@@ -2368,13 +2376,13 @@ tag it won't work, by default it will be at the top */
 /* Code for making the input of name and phone number
 on the same row */
 
-.call-On-Us .row{
+.call-On-Us .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.call-On-Us .row .input-group{
+.call-On-Us .row .input-group {
     flex-basis: 48%;
 }
 
@@ -3759,14 +3767,45 @@ Real screen size for tablets
         margin-top: 25px;
     } */
 
-    
-.call-On-Us .row{
-    display: block;
-    align-items: center;
-    justify-content: space-between;
+
+    .call-On-Us .row {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+
 }
 
 
-    
+@media only screen and (max-width: 500px) {
+    .campaignsCenter2 .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
 
+    .campaignsCenter .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .eventsCenter2 .event2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .eventsCenter .event2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    /* .blog-card .banner a {
+        height: 100%;
+    } */
 }
