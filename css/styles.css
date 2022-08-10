@@ -161,7 +161,7 @@ we want to edit scroll-bar now */
 
 
 
-.site-content .post-title p{
+.site-content .post-title p {
     font-family: var(--ff-source-sans-pro);
 }
 
@@ -916,6 +916,12 @@ in home page */
     font-weight: var(--fw-500);
 }
 
+/* Styling the h1 tags for the events page */
+
+.event-content h1{
+    color: #222;
+}
+
 .eventsCenter2 .event1 h5 {
     margin-top: 14px;
 
@@ -1007,7 +1013,7 @@ in home page */
 
 .team {}
 
-.volunteerTeam a i{
+.volunteerTeam a i {
     font-size: 20px;
 }
 
@@ -1442,7 +1448,7 @@ main .event-content {
     color: #222;
 }
 
-.sidebar .detail i{
+.sidebar .detail i {
     color: var(--chrome-yellow);
 }
 
@@ -1745,7 +1751,7 @@ main .event-content {
 /* banner image for blog.html */
 
 .allBanner3 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.77)), url("../img/banner-bg.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.77)), url("../img/banner-bg.webp");
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;
@@ -1769,7 +1775,7 @@ main .event-content {
     color: var(--white);
 }
 
-.infos h6{
+.infos h6 {
     font-size: 14px;
     width: 100%;
 }
@@ -1861,29 +1867,30 @@ main .event-content {
 
 /* The read-Up section starts */
 
-.read-Up{
+.read-Up {
     margin-top: 70px;
 }
 
 /* site-content section starts */
 
-main .read-Up .site-content{
+main .read-Up .site-content {
     display: grid;
     grid-template-columns: 70% 30%;
 }
 
-main .read-Up .post-content{
+main .read-Up .post-content {
     width: 100%;
     /* margin-bottom: 5rem; */
 }
 
-main .site-content .post-content > .post-image, .post-title{
+main .site-content .post-content>.post-image,
+.post-title {
     padding: 1rem 2rem;
     position: relative;
 }
 
 /* Code for centering our post info to the blog picture */
-main .site-content .post-content > .post-image .post-info{
+main .site-content .post-content>.post-image .post-info {
     background: var(--rajah);
     padding: 1rem;
     position: absolute;
@@ -1893,59 +1900,59 @@ main .site-content .post-content > .post-image .post-info{
     color: black;
 }
 
-main .site-content .post-content > .post-image > div{
+main .site-content .post-content>.post-image>div {
     overflow: hidden;
 }
 
-main .site-content .post-content > .post-image .img{
+main .site-content .post-content>.post-image .img {
     width: 100%;
     transition: all 1s ease;
 }
 
 /* Creating an hover effect on the image */
 
-main .site-content .post-content > .post-image .img:hover{
+main .site-content .post-content>.post-image .img:hover {
     transform: scale(1.3);
 }
 
-main .site-content .post-content > .post-image .post-info span{
+main .site-content .post-content>.post-image .post-info span {
     margin: 0.5rem;
 }
 
-main .post-content .post-title a{
+main .post-content .post-title a {
     font-family: var(--ff-poppins);
     font-size: var(--fs-6);
     color: var(--royal-blue-dark);
     font-weight: var(--fw-600);
-} 
+}
 
 
 
 /* if internet works and the class for flex-row is also working, remove this: */
 
-.flex-row{
+.flex-row {
     display: inline-flex;
 }
 
-.flex-row2{
+.flex-row2 {
     display: inline-flexbox;
     width: 50%;
 }
 
 /* Styling the pagination in site-content */
 
-.site-content .pagination{
+.site-content .pagination {
     justify-content: center;
     margin: 4rem 0;
 }
 
-.site-content .pagination .fas{
+.site-content .pagination .fas {
     color: #222;
 }
 
 
-.site-content .pagination a{
-    
+.site-content .pagination a {
+
     display: inline-flex;
     padding: 0.9rem 1.4rem;
     border-radius: 2rem;
@@ -1953,7 +1960,7 @@ main .post-content .post-title a{
     font-family: var(--ff-poppins);
 }
 
-.site-content .page{
+.site-content .page {
     background: #222;
     color: var(--white);
 }
@@ -1963,21 +1970,21 @@ main .post-content .post-title a{
 
 /* The sidebar section starts */
 
-.site-content > .blog-sidebar li{
+.site-content>.blog-sidebar li {
     display: flex;
     color: #222;
 }
 
-.site-content > .blog-sidebar .category-list .list-items a{
+.site-content>.blog-sidebar .category-list .list-items a {
     color: black;
 }
 
-.site-content > .blog-sidebar .category-list{
+.site-content>.blog-sidebar .category-list {
     font-family: var(--ff-source-sans-pro);
 
 }
 
-.site-content > .blog-sidebar .category-list .list-items{
+.site-content>.blog-sidebar .category-list .list-items {
     background: lightblue;
     padding: 0.4rem 1rem;
     margin: 0.8rem 0;
@@ -1987,21 +1994,21 @@ main .post-content .post-title a{
     justify-content: space-between;
 }
 
-.site-content .h2{
+.site-content .h2 {
     font-size: var(--fs-4);
     color: black;
     font-weight: var(--fw-600);
 }
 
-.site-content .blog-sidebar .popular-post .post-content{
+.site-content .blog-sidebar .popular-post .post-content {
     padding: 1rem 0;
 }
 
-.site-content .blog-sidebar .popular-post h2{
+.site-content .blog-sidebar .popular-post h2 {
     padding-top: 10rem;
 }
 
-.site-content .blog-sidebar .popular-post .post-info{
+.site-content .blog-sidebar .popular-post .post-info {
     /* we used !important because we don't want to call the default property instead call the new one we want to write*/
     padding: 0.4rem 0.1rem !important;
     bottom: 0rem !important;
@@ -2012,21 +2019,21 @@ main .post-content .post-title a{
 
 /* Reducing the font-size of popular posts */
 
-.site-content .blog-sidebar .popular-post .post-title a{
+.site-content .blog-sidebar .popular-post .post-title a {
     font-size: 1.6rem;
 }
 
 /* The newsletter in the sidebar */
 
-.site-content .blog-sidebar .newsletter{
+.site-content .blog-sidebar .newsletter {
     padding-top: 10rem;
 }
 
-.site-content .blog-sidebar .newsletter .form-element{
+.site-content .blog-sidebar .newsletter .form-element {
     padding: 0.5rem 2rem;
 }
 
-.site-content .blog-sidebar .newsletter .inputted-element{
+.site-content .blog-sidebar .newsletter .inputted-element {
     width: 80%;
     height: 40px;
     padding: 0.3rem 0.5rem;
@@ -2035,7 +2042,7 @@ main .post-content .post-title a{
     border: 1px solid #222;
 }
 
-.site-content .blog-sidebar .newsletter .form-btn{
+.site-content .blog-sidebar .newsletter .form-btn {
     border-radius: 0;
     margin: 1rem 0;
 }
@@ -2044,13 +2051,13 @@ main .post-content .post-title a{
 /* Styling the popular tags section */
 
 
-.site-content .blog-sidebar .popular-Tags{
+.site-content .blog-sidebar .popular-Tags {
     padding: 5rem 0;
 }
 
 
 
-.site-content .blog-sidebar .popular-Tags .tags .tag{
+.site-content .blog-sidebar .popular-Tags .tags .tag {
     background: lightblue;
     padding: 0.4rem 1rem;
     width: 70%;
@@ -2082,9 +2089,9 @@ main .post-content .post-title a{
 
 /* Styling the volunteer.html page starts */
 
-    /* The hero section styling in volunteer page starts  */
+/* The hero section styling in volunteer page starts  */
 
-    
+
 .allBanner4 {
     background-image: url("../img/banner-bg.webp");
     background-repeat: no-repeat;
@@ -2103,9 +2110,9 @@ main .post-content .post-title a{
 }
 
 
-    /* The hero section styling in volunteer page ends  */
+/* The hero section styling in volunteer page ends  */
 
-    /* The remaining styles are in volunteerTeam, ctrl+f to find it */
+/* The remaining styles are in volunteerTeam, ctrl+f to find it */
 
 
 
@@ -2118,7 +2125,7 @@ main .post-content .post-title a{
 
 
 /* Styling the banner section in about page starts */
-  
+
 .allBanner5 {
     background-image: url("../img/banner-bg.webp");
     background-repeat: no-repeat;
@@ -2141,15 +2148,15 @@ main .post-content .post-title a{
 
 
 /* Styling the we-Work section starts */
-.we-Work{
+.we-Work {
     margin-top: 120px;
 }
 
-.we-Work .places .place-one{
+.we-Work .places .place-one {
     width: 90%;
 }
 
-.we-Work .places .place-one h1{
+.we-Work .places .place-one h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: var(--fw-700);
     font-size: 4.3rem;
@@ -2157,7 +2164,7 @@ main .post-content .post-title a{
     color: #222;
 }
 
-.we-Work .places .placeTalk p{
+.we-Work .places .placeTalk p {
     color: #222;
 }
 
@@ -2168,29 +2175,29 @@ main .post-content .post-title a{
 
 /* The what-we-do section starts */
 
-.what-WE-DO{
+.what-WE-DO {
     margin-top: 60px;
 }
 
-.what-WE-DO .doing .doing-one{
+.what-WE-DO .doing .doing-one {
     border-radius: var(--radius-12);
     box-shadow: var(--shadow);
     text-align: center;
     height: 170px;
 }
 
-.what-WE-DO .doing .doing-one .things{
+.what-WE-DO .doing .doing-one .things {
     margin-top: 1.5rem;
 }
 
-.what-WE-DO .doing .doing-one .things p{
+.what-WE-DO .doing .doing-one .things p {
     margin-top: 1.5rem;
     font-size: 17px;
     color: #222;
     font-weight: var(--fw-600);
 }
 
-.what-WE-DO .doing .doing-one .things i{
+.what-WE-DO .doing .doing-one .things i {
     cursor: pointer;
     color: var(--chrome-yellow);
     border: 1.4px solid var(--chrome-yellow);
@@ -2211,7 +2218,7 @@ main .post-content .post-title a{
 /* The mission section starts */
 
 
-.mission .all-missions .mission-one{
+.mission .all-missions .mission-one {
     border-radius: var(--radius-12);
     box-shadow: var(--shadow);
     background: var(--chrome-yellow);
@@ -2220,7 +2227,7 @@ main .post-content .post-title a{
     padding: 3rem 2rem;
 }
 
-.mission .all-missions .mission-one h2{
+.mission .all-missions .mission-one h2 {
     margin-top: 20px;
     margin-left: 30px;
     font-size: 28px;
@@ -2229,7 +2236,7 @@ main .post-content .post-title a{
     font-weight: var(--fw-700);
 }
 
-.mission .all-missions .mission-one p{
+.mission .all-missions .mission-one p {
     color: var(--black_70);
     margin-left: 30px;
     width: 85%;
@@ -2237,7 +2244,7 @@ main .post-content .post-title a{
 
 
 
-.mission{
+.mission {
     margin-top: 125px;
     margin-block-end: 40px;
 }
@@ -2283,11 +2290,11 @@ main .post-content .post-title a{
 
 /* The call-On-Us section starts */
 
-.call-On-Us{
+.call-On-Us {
     margin-top: 100px;
 }
 
-.call-On-Us .contact-Us h1{
+.call-On-Us .contact-Us h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: var(--fw-700);
     font-size: 4.3rem;
@@ -2296,7 +2303,7 @@ main .post-content .post-title a{
     width: 85%;
 }
 
-.call-On-Us .contact-Us .contacting p{
+.call-On-Us .contact-Us .contacting p {
     color: #222;
     width: 85%;
 }
@@ -2309,7 +2316,7 @@ main .post-content .post-title a{
     margin-top: 25px;
 }
 
-.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one .fas{
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one .fas {
     outline: .1rem solid var(--chrome-yellow);
     outline-offset: -0.07rem;
     background: var(--chrome-yellow);
@@ -2320,20 +2327,40 @@ main .post-content .post-title a{
     cursor: pointer;
 }
 
-.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h3{
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h3 {
     font-size: 20px;
     color: #222;
 }
 
-.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a{
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a {
     color: #222;
     font-size: 13px;
+    display: inline-flex;
 }
 
-.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a:hover{
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a:hover {
     color: var(--amaranth-purple);
     text-decoration: underline;
     transition: .6s;
+}
+
+
+.call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 {
+    color: black;
+}
+
+
+/* The form section styling */
+
+.cont-image {
+    /* background-image: linear-gradient(hsl(59, 99%, 33%), hsl(51, 89%, 36%)), url("../img/m-blog-1.jpg"); */
+    background-image: linear-gradient(rgba(0.7, 0.5, 0.1, 0.1), var(--chrome-yellow)), url(../img/banner-bg.webp);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+    padding: 2rem 3rem;
 }
 
 
@@ -2758,15 +2785,41 @@ come up and not stay down as it was before */
 
     /* top spacing in about.html page */
 
-    
-.mission{
-    margin-top: 125px;
-    margin-block-end: -10px;
-}
 
-    .all-missions .mission-one{
+    .mission {
+        margin-top: 125px;
+        margin-block-end: -10px;
+    }
+
+    .all-missions .mission-one {
         margin-block-end: 20px;
     }
+
+    /* The contact us section in contact.html */
+    
+
+    .contacting .locating {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 0.2fr 1fr;
+    }
+
+
+    .call-On-Us .contact-Us .contacting p {
+        color: #222;
+        width: 100%;
+    }
+
+
+    .call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one .fas {
+        margin-top: 20px;
+    }
+
+
+    .call-On-Us .contact-Us .our-Contacts .locate .locating .locate-one h5 a {
+        margin-top: 7px;
+    }
+
 
 }
 
@@ -2800,7 +2853,7 @@ come up and not stay down as it was before */
     .eventTypes .event-Time {
         margin-left: 30px;
     }
-    
+
 }
 
 /* responsiveness for larger than 550px screen */
@@ -2932,7 +2985,7 @@ come up and not stay down as it was before */
         gap: 30px 50px;
     }
 
-    
+
 }
 
 
@@ -3100,6 +3153,9 @@ come up and not stay down as it was before */
         width: 100%;
     }
 
+    
+
+
 }
 
 /* responsiveness for larger than 768px screen */
@@ -3189,23 +3245,36 @@ come up and not stay down as it was before */
 
     /* The we-Work section in about.html */
 
-    .places{
+    .places {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .all-missions{
+    .all-missions {
         display: grid;
         gap: 30px;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
+
 
     /* The what-WE-DO section in about.html */
 
-    .doing{
+    .doing {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    /* The contact-Us section in contact.html */
+
+    .contact-Us {
+        display: grid;
+        gap: 20px;
+        grid-template-columns:  1fr 1fr;
+    }
+
+    .contacting .locating {
+        display: grid;
+        grid-template-columns: 0.2fr 0.7fr;
     }
 
 
@@ -3332,7 +3401,7 @@ come up and not stay down as it was before */
 
 
     /* The we-Work section in about.html */
-   
+
 
     /* footer */
 
@@ -3349,6 +3418,7 @@ come up and not stay down as it was before */
     }
 
 }
+
 /* hereeeee */
 
 
@@ -3460,4 +3530,19 @@ come up and not stay down as it was before */
         margin-left: 80px;
     }
 
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+    /* Making the contact-Us section responsive for ipad devices */
+    .contact-Us {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
 }
