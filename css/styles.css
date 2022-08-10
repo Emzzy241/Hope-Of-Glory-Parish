@@ -1328,6 +1328,12 @@ main .event-content {
     margin-top: 33px;
 }
 
+.eventTypes h1 {
+    margin-left: -10px;
+    margin-block-end: 20px;
+}
+
+
 .eventTypes .event-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-4.jpg");
     width: 70%;
@@ -2292,6 +2298,9 @@ main .post-content .post-title a {
     background-repeat: no-repeat;
     border-radius: 10%;
     padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -2752,9 +2761,11 @@ come up and not stay down as it was before */
     }
 
 
+
 }
 
 @media (max-width: 300px) {
+
 
     .percent {
         margin-left: 70px;
@@ -2762,9 +2773,7 @@ come up and not stay down as it was before */
     }
 
 
-    .eventTypes .event-Time {
-        margin-left: 30px;
-    }
+
 
 }
 
@@ -2781,9 +2790,9 @@ come up and not stay down as it was before */
         margin-top: -15px;
     }
 
-    .eventTypes .event-Time {
-        margin-left: 30px;
-    }
+
+
+
 
 }
 
@@ -2816,6 +2825,8 @@ come up and not stay down as it was before */
         margin-left: 120px;
         margin-top: -15px;
     }
+
+
 
 
 
@@ -2927,97 +2938,6 @@ come up and not stay down as it was before */
         margin-bottom: 20px;
     } */
 
-    .eventsCenter .dateEvent {
-        margin-left: 50px;
-    }
-
-    .eventsCenter .event1 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .eventsCenter .event2 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-
-
-    .eventsCenter .dateEvent2 {
-        margin-left: 50px;
-
-    }
-
-    /* Second image in events */
-
-    .eventsCenter2 .dateEvent {
-        margin-left: 50px;
-    }
-
-    .eventsCenter2 .event1 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .eventsCenter2 .event2 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-
-
-    .eventsCenter2 .dateEvent2 {
-        margin-left: 50px;
-
-    }
-
-
-    /* The campaign section in campaign.html */
-
-    .campaignsCenter .dateCampaign {
-        margin-left: 50px;
-    }
-
-    .campaignsCenter .campaign1 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .campaignsCenter .campaign2 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-
-
-    .campaignsCenter .dateCampaign2 {
-        margin-left: 50px;
-
-    }
-
-    /* Second image  */
-
-
-    .campaignsCenter2 .dateCampaign {
-        margin-left: 50px;
-    }
-
-    .campaignsCenter2 .campaign1 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .campaignsCenter2 .campaign2 {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-
-
-    .campaignsCenter2 .dateCampaign2 {
-        margin-left: 50px;
-
-    }
 
 
 
@@ -3474,10 +3394,12 @@ come up and not stay down as it was before */
         margin-left: 390px; 
     } */
 
-
+    /* 
     .eventTypes .event-Time {
         margin-left: 80px;
-    }
+    } */
+
+
 
     .site-content .blog-sidebar .popular-post .post-info {
         display: none !important;
@@ -3496,9 +3418,13 @@ come up and not stay down as it was before */
 
 
 
+
+
 }
 
-/* The navbar for only width 1100px or less */
+/* The navbar for only width 1100px or less 
+Real screen size for tablets
+*/
 @media only screen and (max-width: 1100px) {
     /* .navbar-list li {
         display: flex;
@@ -3514,21 +3440,21 @@ come up and not stay down as it was before */
         display: none;
     } */
 
-    nav ul{
+    nav ul {
         float: right;
         width: 100%;
     }
 
-    nav ul li .navbar-link{
+    nav ul li .navbar-link {
         margin-right: 7rem;
         margin-left: 4rem;
     }
 
-    nav ul li{
+    nav ul li {
         display: inline-flex;
     }
 
-    nav .btn{
+    nav .btn {
         display: none;
     }
 
@@ -3539,6 +3465,137 @@ come up and not stay down as it was before */
     .site-content .post-content>.post-image .post-info {
         display: none;
     }
+
+
+    .eventTypes .event-Time {
+        display: inline-flex;
+
+        background: var(--chrome-yellow);
+        width: 250px;
+        padding: 12px;
+        border-radius: 10px;
+        margin-top: 297px;
+        margin-left: -0.7px;
+    }
+
+
+    /* Tablet screen responsiveness for both eventsCenter and campaignsCenter classes */
+    .eventsCenter .dateEvent {
+        margin-left: 50px;
+    }
+
+    .eventsCenter .event1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eventsCenter .event2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .eventsCenter .dateEvent2 {
+        margin-left: 50px;
+
+    }
+
+    .eventTypes .eventType1 {
+        margin-top: 20px;
+    }
+
+
+    .eventTypes p {
+        width: 80%;
+    }
+
+    /* Second image in events */
+
+    .eventsCenter2 .dateEvent {
+        margin-left: 50px;
+    }
+
+    .eventsCenter2 .event1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .eventsCenter2 .event2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .eventsCenter2 .dateEvent2 {
+        margin-left: 50px;
+
+    }
+
+
+    /* The campaign section in campaign.html */
+
+    .campaignsCenter .dateCampaign {
+        margin-left: 50px;
+    }
+
+    .campaignsCenter .campaign1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .campaignsCenter .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .campaignsCenter .dateCampaign2 {
+        margin-left: 50px;
+
+    }
+
+    /* Second image  */
+
+
+    .campaignsCenter2 .dateCampaign {
+        margin-left: 50px;
+    }
+
+    .campaignsCenter2 .campaign1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .campaignsCenter2 .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .campaignsCenter2 .dateCampaign2 {
+        margin-left: 50px;
+
+    }
+
+    /* Displaying only twp columns for the missions section */
+
+    .all-missions {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
 }
 
 
@@ -3559,5 +3616,77 @@ come up and not stay down as it was before */
     .site-content .post-content>.post-image .post-info {
         display: none;
     }
+
+
+
+}
+
+
+/* The real screen size for mobile */
+
+@media only screen and (max-width: 400px) {
+    .eventTypes .event-Time {
+        display: inline-flex;
+
+        background: var(--chrome-yellow);
+        width: 250px;
+        padding: 12px;
+        border-radius: 10px;
+        margin-top: 302px;
+        margin-left: -0.7px;
+    }
+
+
+    /* Removing the margin-left I gave to tablet screens in 1100px */
+
+    .campaignsCenter2 .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .campaignsCenter .campaign2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .eventsCenter2 .event2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .eventsCenter .event2 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -2px;
+    }
+
+    .all-missions {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+
+    .contacting .locating {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    /* 
+    .call-On-Us .contact-Us .our-Contacts .locate .locating {
+        outline: .1rem solid var(--chrome-yellow);
+        outline-offset: -0.07rem;
+        padding: 3rem 2rem;
+        border-radius: var(--radius-12);
+        margin-top: 25px;
+    } */
+
+    
+
+
+    
 
 }

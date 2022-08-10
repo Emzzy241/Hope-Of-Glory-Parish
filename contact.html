@@ -84,7 +84,7 @@
                 <span> Events</span>
             </a>
 
-            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>a
+            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
                 <ion-icon name="menu-outline"></ion-icon>
             </button>
         </div>
@@ -131,7 +131,7 @@
 
             <h2 class="h2 section-title underline">Contact Us </h2>
 
-            <ul class="contact-Us">
+            <ul class="contact-Us container">
                 <li class="contacting">
                     <h1>Fell Free To Contact & Reach Us</h1>
 
@@ -190,15 +190,31 @@
                 </li>
                 <li class="contacting rounded">
                     <div class="cont-image">
-                        <!-- <form action="">
-                            <input type="text" placeholder="Enter Name*">
-                            <input type="email" name="" id="" placeholder="Enter Email*">
-                            <input type="text" placeholder="Enter Subject*">
-                            <input type="text" placeholder="Enter Phone No*">
-                            <textarea name="" id="" cols="30" rows="5" placeholder="Enter Message*"></textarea>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" id="name" placeholder="Enter Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="number" id="number" placeholder="Enter Number" required>
+                                <label for="number">Your Phone No.</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" id="subject" placeholder="Enter Subject" required>
+                                <label for="subject">Enter Subject</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" placeholder="Enter Email" required>
+                                <label for="email">Enter Email</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="message" rows="8"></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
 
-                            <a href="#" class="btn">Submit Now</a>
-                        </form> -->
+                            <button type="submit">SUBMIT</button>
+                            
+                        </form>
                     </div>
                 </li>
 
