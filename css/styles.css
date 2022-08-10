@@ -826,7 +826,7 @@ in home page */
 }
 
 .eventsCenter2 .event1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/4.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/nigerian-Women.jpg");
     height: 450px;
     width: 85%;
     background-size: cover;
@@ -868,7 +868,7 @@ in home page */
 
 
 .eventsCenter2 .event2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/10.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/students-School.webp");
     height: 450px;
     width: 85%;
     background-size: cover;
@@ -1341,7 +1341,7 @@ main .event-content {
 
 
 .eventTypes .event-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-4.jpg");
+    background-image: url("../img/Poor-Families.jpg");
     width: 70%;
     height: 350px;
     border-radius: 10px;
@@ -1350,7 +1350,7 @@ main .event-content {
 }
 
 .eventTypes .event-img2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-3.jpg");
+    background-image: url("../img/bornoCitizens.jpeg");
     width: 70%;
     height: 350px;
     border-radius: 10px;
@@ -1359,7 +1359,7 @@ main .event-content {
 }
 
 .eventTypes .event-img3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.77)), url("../img/blog-1.jpg");
+    background-image: url("../img/tacklePoverty.jpg");
     width: 70%;
     height: 350px;
     border-radius: 10px;
@@ -1367,7 +1367,6 @@ main .event-content {
     cursor: pointer;
 }
 
-.event-content .event-Time h2 {}
 
 .eventTypes .event-Time {
     display: inline-flex;
@@ -1945,10 +1944,6 @@ main .post-content .post-title a {
 
 .site-content .blog-sidebar .popular-post h2 {
     padding-top: 10rem;
-}
-
-.site-content .blog-sidebar .popular-post .post-info {
-    /* display: block; */
 }
 
 .site-content .blog-sidebar .popular-post .post-info {
