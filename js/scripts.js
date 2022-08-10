@@ -38,19 +38,6 @@ for(let i = 0; i < navbarLinks.length; i++){
 // What we did here is that when we click on any link(be it the home, about, or contact link, our navigation should get closed)
 
 
-// Owl-Carousel for classes
-// with the code in owlCarousel we said our slider should scroll after every 3 seconds
-$(document).ready( function(){
-    $(".owl-carousel").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        dots: false,
-        nav: true,
-        navText: [$("owl-navigation.owl-nav-prev"),("owl-navigation.owl-nav-next")]
-    });
-});
-
 
 
 // Javascript for the scroll-top button

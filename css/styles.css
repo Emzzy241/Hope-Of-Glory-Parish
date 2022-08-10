@@ -238,6 +238,8 @@ h3 {
     padding-inline: 15px;
 }
 
+
+
 .section {
     padding-block: var(--section-padding);
 }
@@ -576,81 +578,6 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     background-color: var(--winter-sky);
 }
 
-
-/* Styling of the Classes Crousel starts */
-
-#class-start .classes {
-    background: url("../img/Abract01.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 100vh;
-    width: 100%;
-    background-size: 65%;
-}
-
-#class-start .classes-list {
-    padding-top: 6rem;
-}
-
-#class-start .classes-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    margin: 3rem 2rem;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-}
-
-#class-start .classes-title {
-    padding: 2rem 0;
-}
-
-#class-start img {
-    height: 200px;
-    width: 275px;
-
-}
-
-#class-start span {
-    color: var(--black_70);
-    font-family: var(--ff-poppins);
-    display: block;
-}
-
-/* What's making website unresponsive on Laptop and mobile */
-/* #class-start .container{
-    margin: 0 50vw;
-} */
-
-/* Styling the owl navigation */
-
-#class-start section .container .owl-nav {
-    position: absolute;
-    top: 0%;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.owl-nav .owl-prev .owl-nav-prev,
-.owl-nav .owl-next .owl-nav-next {
-    color: var(--royal-blue-dark);
-    background: transparent;
-    font-size: 2rem;
-}
-
-/* Removing the hover effect from owl-nav */
-
-.owl-theme .owl-nav[class="owl-"]:hover {
-    background: transparent;
-    color: var(--black_70);
-}
-
-.owl-theme .owl-nav[class="owl-"] {
-    outline: none;
-}
-
-
-/* Styling of the Classes Crousel ends */
 
 
 
@@ -2890,14 +2817,6 @@ come up and not stay down as it was before */
 
 
 
-
-    /* THE CLASSES SECTION */
-
-    /* .classes .owl-carousel .classes-content{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-    } */
 
 
     /* The  about section styling */
