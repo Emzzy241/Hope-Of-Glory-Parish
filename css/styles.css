@@ -845,7 +845,7 @@ in home page */
 
 /* Styling the h1 tags for the events page */
 
-.event-content h1{
+.event-content h1 {
     color: #222;
 }
 
@@ -1936,6 +1936,10 @@ main .post-content .post-title a {
 }
 
 .site-content .blog-sidebar .popular-post .post-info {
+    /* display: block; */
+}
+
+.site-content .blog-sidebar .popular-post .post-info {
     /* we used !important because we don't want to call the default property instead call the new one we want to write*/
     padding: 0.4rem 0.1rem !important;
     bottom: 0rem !important;
@@ -1986,8 +1990,8 @@ main .post-content .post-title a {
 
 .site-content .blog-sidebar .popular-Tags .tags .tag {
     background: lightblue;
-    padding: 0.4rem 1rem;
-    width: 70%;
+    padding: 0.8rem 1rem;
+    width: 95%;
     justify-content: space-between;
     color: black;
     border-radius: 3rem;
@@ -2723,7 +2727,7 @@ come up and not stay down as it was before */
     }
 
     /* The contact us section in contact.html */
-    
+
 
     .contacting .locating {
         display: grid;
@@ -2905,6 +2909,11 @@ come up and not stay down as it was before */
     }
 
 
+    /* Removing the comment section for small screen devices */
+
+
+
+
 }
 
 
@@ -2913,10 +2922,10 @@ come up and not stay down as it was before */
         max-width: 720px;
     }
 
-    .navbar .navbar-list {
+    /* .navbar .navbar-list {
         margin-top: -350px;
         margin-bottom: 20px;
-    }
+    } */
 
     .eventsCenter .dateEvent {
         margin-left: 50px;
@@ -3072,7 +3081,9 @@ come up and not stay down as it was before */
         width: 100%;
     }
 
-    
+
+
+
 
 
 }
@@ -3188,13 +3199,15 @@ come up and not stay down as it was before */
     .contact-Us {
         display: grid;
         gap: 20px;
-        grid-template-columns:  1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .contacting .locating {
         display: grid;
         grid-template-columns: 0.2fr 0.7fr;
     }
+
+
 
 
 
@@ -3391,6 +3404,16 @@ come up and not stay down as it was before */
     }
 
 
+    .site-content .post-content>.post-image .post-content {
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+
+
+
+
     /* THE FOOTER SECTION */
 
 
@@ -3416,6 +3439,13 @@ come up and not stay down as it was before */
 /* MEDIA QUERY FOR THE sidebar */
 
 @media only screen and (max-width: 750px) {
+
+    /* This media query alone and dont add others for top spacing between name and navigations */
+    .navbar .navbar-list {
+        margin-top: -650px;
+        margin-bottom: 20px;
+    }
+
     main .event-content {
         grid-template-columns: 100%;
     }
@@ -3449,10 +3479,67 @@ come up and not stay down as it was before */
         margin-left: 80px;
     }
 
-    
+    .site-content .blog-sidebar .popular-post .post-info {
+        display: none !important;
+    }
+
+
+
+
+    main .read-Up .site-content {
+        grid-template-columns: 100%;
+    }
+
+    .site-content .post-content>.post-image .post-info {
+        display: none;
+    }
+
+
 
 }
 
+/* The navbar for only width 1100px or less */
+@media only screen and (max-width: 1100px) {
+    /* .navbar-list li {
+        display: flex;
+        
+    }
+
+    .navbar-list li a{
+        margin-left: -110px;
+        display: inline-flex;
+    }
+    
+    .header .btn{
+        display: none;
+    } */
+
+    nav ul{
+        float: right;
+        width: 100%;
+    }
+
+    nav ul li .navbar-link{
+        margin-right: 7rem;
+        margin-left: 4rem;
+    }
+
+    nav ul li{
+        display: inline-flex;
+    }
+
+    nav .btn{
+        display: none;
+    }
+
+    .site-content .blog-sidebar .popular-post .post-info {
+        display: none !important;
+    }
+
+    .site-content .post-content>.post-image .post-info {
+        display: none;
+    }
+}
 
 
 
@@ -3464,4 +3551,13 @@ come up and not stay down as it was before */
         gap: 20px;
         grid-template-columns: 1fr;
     }
+
+    .site-content .blog-sidebar .popular-post .post-info {
+        display: none !important;
+    }
+
+    .site-content .post-content>.post-image .post-info {
+        display: none;
+    }
+
 }
