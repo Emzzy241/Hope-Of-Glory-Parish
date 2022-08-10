@@ -3710,6 +3710,10 @@ Real screen size for tablets
     .navbar .navbar-list .navbar-link {
         margin-bottom: 5px;
     }
+
+    .navbar .navbar-top{
+        margin-block-end: 50px;
+    }
     
 
 
