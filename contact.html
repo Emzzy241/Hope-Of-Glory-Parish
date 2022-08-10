@@ -189,30 +189,35 @@
                     </div>
                 </li>
                 <li class="contacting rounded">
-                    <div class="cont-image">
+                    <div class="cont-image"> <br>
                         <form action="">
-                            <div class="input-group">
-                                <input type="text" id="name" placeholder="Enter Name" required>
-                                <label for="name">Your Name</label>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" id="name" required>
+                                    <label for="name">&nbsp;<i class="fas fa-user"></i> Your Name</label>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" id="number" required>
+                                    <label for="number">&nbsp;<i class="fas fa-phone-square-alt"></i> Your Phone No.</label>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" id="subject" required>
+                                    <label for="subject">&nbsp;<i class="fas fa-envelope-open-text"></i> Enter Subject</label>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" id="email" required>
+                                    <label for="email">&nbsp;<i class="fas fa-envelope"></i> Enter Email</label>
+                                </div>
                             </div>
                             <div class="input-group">
-                                <input type="number" id="number" placeholder="Enter Number" required>
-                                <label for="number">Your Phone No.</label>
-                            </div>
-                            <div class="input-group">
-                                <input type="text" id="subject" placeholder="Enter Subject" required>
-                                <label for="subject">Enter Subject</label>
-                            </div>
-                            <div class="input-group">
-                                <input type="email" id="email" placeholder="Enter Email" required>
-                                <label for="email">Enter Email</label>
-                            </div>
-                            <div class="input-group">
-                                <textarea id="message" rows="8"></textarea>
-                                <label for="message">Your Message</label>
+                                <textarea id="message" rows="8" required></textarea >
+                                <label for="message">&nbsp;<i class="fas fa-comments"></i> Your Message</label>
                             </div>
 
-                            <button type="submit">SUBMIT</button>
+                            <button type="submit"><i class="fas fa-paper-plane"></i> SUBMIT</button>
                             
                         </form>
                     </div>

@@ -2292,7 +2292,7 @@ main .post-content .post-title a {
 .cont-image {
     /* background-image: linear-gradient(hsl(59, 99%, 33%), hsl(51, 89%, 36%)), url("../img/m-blog-1.jpg"); */
     background-image: linear-gradient(rgba(0.7, 0.5, 0.1, 0.1), var(--chrome-yellow)), url(../img/banner-bg.webp);
-    height: 550px;
+    height: 650px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2301,6 +2301,81 @@ main .post-content .post-title a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.call-On-Us form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.call-On-Us .input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.call-On-Us input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid var(--white);
+    color: var(--white);
+    background: transparent;
+    font-size: 15px;
+}
+.call-On-Us label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: var(--white);
+    cursor: text;
+    transition: 0.2s;
+}
+
+.call-On-Us button{
+    padding: 10px 0;
+    color: var(--white);
+    outline: none;
+    background: transparent;
+    border: 1px solid var(--white);
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Making an animation movement for our texts when we click on the input
+or textarea */
+
+.call-On-Us input:focus~label,
+.call-On-Us input:valid~label,
+.call-On-Us textarea:focus~label,
+.call-On-Us textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+/* After doing this, when we write in a text and tap 
+outside the input we notice that the labale comes down, we want
+to prevent this from happening with the code 2nd line with 
+valid*/
+
+/* Without required keyword in the input and textarea
+tag it won't work, by default it will be at the top */
+
+
+
+/* Code for making the input of name and phone number
+on the same row */
+
+.call-On-Us .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call-On-Us .row .input-group{
+    flex-basis: 48%;
 }
 
 
@@ -3685,6 +3760,11 @@ Real screen size for tablets
     } */
 
     
+.call-On-Us .row{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
     
