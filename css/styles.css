@@ -345,7 +345,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     left: -250px;
     width: 100%;
     max-width: 250px;
-    min-height: 100vh;
+    min-height: 900px;
     padding: 20px;
     visibility: hidden;
     z-index: 2;
@@ -3523,6 +3523,14 @@ Real screen size for tablets
         display: none;
     } */
 
+    .navbar .navbar-list .navbar-link{
+        padding-top: 10px;
+    }
+
+    .navbar .navbar-top{
+        margin-top: 50px;
+        margin-block-end: -50px;
+    }
     
 
     nav ul {
@@ -3704,12 +3712,30 @@ Real screen size for tablets
 
     .navbar .navbar-list {
         margin-bottom: 10px;
-        margin-top: -520px;
+        /* margin-top: -400px; */
+       
     }
 
-    .navbar .navbar-list .navbar-link {
-        margin-bottom: 5px;
+    
+    .navbar .navbar-list .navbar-item{
+        
     }
+
+    .navbar-item:not(:last-child){
+         margin-bottom: 5px;
+          /* ; */
+        /* position: fixed; */
+    }
+
+    .navbar .navbar-list .navbar-link{
+        padding-top: 10px;
+    }
+
+    .navbar .navbar-top{
+        margin-top: -145px;
+        margin-block-end: 150px;
+    }
+    
 
 
 
