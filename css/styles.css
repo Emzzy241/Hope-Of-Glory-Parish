@@ -345,7 +345,7 @@ fontsize --fs-6 or any number and remove any card you changed it's font size in 
     left: -250px;
     width: 100%;
     max-width: 250px;
-    min-height: 900px;
+    min-height: 1000px;
     padding: 20px;
     visibility: hidden;
     z-index: 2;
@@ -3713,12 +3713,13 @@ Real screen size for tablets
     .navbar .navbar-list {
         margin-bottom: 10px;
         /* margin-top: -400px; */
+        margin-top: -600px;
        
     }
 
     
     .navbar .navbar-list .navbar-item{
-        
+        /* margin-top: -800px; */
     }
 
     .navbar-item:not(:last-child){
@@ -3729,6 +3730,7 @@ Real screen size for tablets
 
     .navbar .navbar-list .navbar-link{
         padding-top: 10px;
+        
     }
 
     .navbar .navbar-top{
